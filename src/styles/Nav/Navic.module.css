@@ -1,0 +1,425 @@
+
+
+
+.main{
+    position: fixed;
+    top: 0%;
+    width: 50vmin;
+    height: 100vmax;
+    background-image: linear-gradient(to bottom, #474747 , #0033cc);
+    z-index: 12;
+    cursor: pointer;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+
+    font-family: 'Roboto Mono', monospace;
+
+
+  
+}
+
+  .iconItem{
+    height: 7vmin;
+    width: 80%;
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+
+ 
+   
+
+
+    /* border: 2px solid red; */
+
+  }
+
+  .icon{
+
+    color: whitesmoke;
+    font-size: 2.5vmin;
+    
+  }
+
+
+.navitems{
+height: 65vmin;
+width: 80%;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+
+
+
+
+
+/* border: 2px solid red; */
+
+}
+
+.navitems a{
+    color: whitesmoke;
+ 
+    text-decoration: none;
+    font-size: 2vmin;
+}
+
+.navitems a:hover {
+    transition: 600ms;
+    text-decoration: none;
+    color: #ffc500;
+    transform: scale(0.96);
+    
+}
+
+
+
+
+
+
+
+
+
+.mainBar {
+  position: fixed;
+  top: 0%;
+  width: 5vmin;
+  height: 100vmax;
+  background-image: linear-gradient(to bottom, #474747, #0033cc);
+  z-index: 12;
+  cursor: pointer;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:25px ;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .main {
+      position: fixed;
+      top: 0%;
+      width: 65vmin;
+      height: 100vmax;
+      background-image: linear-gradient(to bottom, #474747, #0033cc);
+      z-index: 12;
+      cursor: pointer;
+      font-weight: bolder;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* justify-content: space-around; */
+  
+      font-family: 'Roboto Mono', monospace;
+  
+  
+  
+    }
+  
+    .iconItem {
+      height: 7vmin;
+      width: 80%;
+  
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 30px;
+  
+  
+  
+  
+  
+      /* border: 2px solid red; */
+  
+    }
+  
+    .icon {
+  
+      color: whitesmoke;
+      font-size: 2.6vmin;
+  
+    }
+  
+  
+    .navitems {
+      height: 75vmin;
+      width: 80%;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content:space-around;
+  
+  
+  
+  
+  
+      /* border: 2px solid red; */
+  
+    }
+  
+    .navitems a {
+      color: whitesmoke;
+  
+      text-decoration: none;
+      font-size: 2.3vmin;
+    }
+  
+    .navitems a:hover {
+      transition: 600ms;
+      text-decoration: none;
+      color: #ffc500;
+      transform: scale(0.96);
+  
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .main {
+    position: fixed;
+    top: 0%;
+    width: 75vmin;
+    height: 100vmax;
+    background-image: linear-gradient(to bottom, #474747, #0033cc);
+    z-index: 12;
+    cursor: pointer;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+
+    font-family: 'Roboto Mono', monospace;
+
+
+
+  }
+
+  .iconItem {
+    height: 7vmin;
+    width: 80%;
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+
+
+
+
+
+    /* border: 2px solid red; */
+
+  }
+
+  .icon {
+
+    color: whitesmoke;
+    font-size: 3vmin;
+
+  }
+
+
+  .navitems {
+    height: 65vmax;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+
+
+    /* border: 2px solid red; */
+
+  }
+
+  .navitems a {
+    color: whitesmoke;
+
+    text-decoration: none;
+    font-size: 2.3vmin;
+  }
+
+  .navitems a:hover {
+    transition: 600ms;
+    text-decoration: none;
+    color: #ffc500;
+    transform: scale(0.96);
+
+  }
+
+
+    .mainBar {
+      position: fixed;
+      top: 0%;
+      width: 6vmin;
+      height: 100vmax;
+      background-image: linear-gradient(to bottom, #474747, #0033cc);
+      z-index: 12;
+      cursor: pointer;
+      font-weight: bolder;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 25px;
+  
+  
+  
+  
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+  .main {
+    position: fixed;
+    top: 0%;
+    width: 85vmin;
+    height: 100vmax;
+    background-image: linear-gradient(to bottom, #474747, #0033cc);
+    z-index: 12;
+    cursor: pointer;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+
+    font-family: 'Roboto Mono', monospace;
+
+
+
+  }
+
+  .iconItem {
+    height: 7vmin;
+    width: 80%;
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+
+
+
+
+
+    /* border: 2px solid red; */
+
+  }
+
+  .icon {
+
+    color: whitesmoke;
+    font-size: 4.3vmin;
+
+  }
+
+
+  .navitems {
+    height:60vmax;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+
+
+    /* border: 2px solid red; */
+
+  }
+
+  .navitems a {
+    color: whitesmoke;
+
+    text-decoration: none;
+    font-size: 3vmin;
+  }
+
+  .navitems a:hover {
+    transition: 600ms;
+    text-decoration: none;
+    color: #ffc500;
+    transform: scale(0.96);
+
+  }
+
+
+  .mainBar {
+    position: fixed;
+    top: 0%;
+    width: 8vmin;
+    height: 100vmax;
+    background-image: linear-gradient(to bottom, #474747, #0033cc);
+    z-index: 12;
+    cursor: pointer;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+
+
+
+
+  }
+
+
+
+
+}
+
+
+
+

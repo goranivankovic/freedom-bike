@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
+
+.main{
+
+    height: 100vmin;
+    width: 100%;
+    cursor: pointer;
+    background-color: #0033cc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    color: whitesmoke;
+
+  
+  
+ 
+ 
+}
+
+
+.firstDiv {
+    height: 15vmin;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vmin;
+    font-weight: bolder;
+  
+}
+
+.secondDiv{
+    width: 65%;
+    height: 37vmin;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    /* border: 2px solid white; */
+}
+
+.secondDivItems{
+    height: 36vmin;
+    width: 32.5%;
+    border-radius: 10px;
+    
+}
+
+.threedDiv{
+
+       height: 10vmin;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.3vmin;
+        font-weight: bolder;
+
+
+}
+
+.fourDiv{
+    width: 65%;
+    height: 20vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 2.2vmin;
+
+
+
+
+    /* border: 2px solid white; */
+
+}
+.fourDiv div{
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 6px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.fourDiv div:hover{
+    transition: 600ms;
+    transform: scale(.95);
+    color: #ffc500;
+    border-bottom: 2px solid #ffc500;
+}
+
+
+
+
+
+@media only screen and (min-width: 1922px) and (max-width: 2562px) {
+
+
+.fourDiv {
+        width: 65%;
+        height: 20vmin;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 2.1vmin;
+
+
+        /* border: 2px solid white; */
+
+    }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 1600px) and (max-width: 1921px) {
+
+    .fourDiv {
+            width: 65%;
+            height: 20vmin;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 1.7vmin;
+    
+    
+            /* border: 2px solid white; */
+    
+        }
+
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .fourDiv {
+            width: 65%;
+            height: 20vmin;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 2.1vmin;
+    
+    
+            /* border: 2px solid white; */
+    
+        }
+
+
+}
+
+
+ @media only screen and (max-width: 992px) {
+
+
+    .fourDiv {
+            width: 65%;
+            height: 20vmin;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 1.8vmin;
+    
+    
+            /* border: 2px solid white; */
+    
+        }
+
+
+ }
+
+
+
+  @media only screen and (max-width:768px) {
+
+    .main {
+    
+            height: 100vmin;
+            width: 100%;
+            cursor: pointer;
+            background-color: #0033cc;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: space-around; */
+            color: whitesmoke;
+    
+    
+    
+    
+    
+        }
+    
+    
+        .firstDiv {
+            height: 15vmin;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5vmin;
+            font-weight: bolder;
+    
+        }
+    
+        .secondDiv {
+            width: 70%;
+            height: 37vmin;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+    
+            /* border: 2px solid white; */
+        }
+    
+        .secondDivItems {
+            height: 36vmin;
+            width: 32.5%;
+            border-radius: 10px;
+    
+        }
+    
+        .threedDiv {
+    
+            height: 10vmin;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.2vmin;
+            font-weight: bolder;
+    
+    
+        }
+    
+        .fourDiv {
+            width:70%;
+            height: 20vmin;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+    
+            font-size: 1.85vmin;
+    
+    
+    
+    
+            /* border: 2px solid white; */
+    
+        }
+    
+        .fourDiv div {
+            border-bottom: 2px solid whitesmoke;
+            padding-bottom: 6px;
+            font-weight: bolder;
+            color: whitesmoke;
+        }
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width:600px) {
+
+      .main {
+
+          height:220vmin;
+          width: 100%;
+          cursor: pointer;
+          background-color: #0033cc;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          /* justify-content: space-around; */
+          color: whitesmoke;
+
+
+
+
+
+      }
+
+
+      .firstDiv {
+          height: 15vmin;
+          width: 90%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 2.9vmin;
+          font-weight: bolder;
+
+      }
+
+      .secondDiv {
+          width: 75%;
+          height: 155vmin;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+
+
+          /* border: 2px solid white; */
+      }
+
+      .secondDivItems {
+          height: 50vmin;
+          width: 75%;
+          border-radius: 10px;
+
+      }
+
+      .threedDiv {
+
+          height: 10vmin;
+          width: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 2.6vmin;
+          font-weight: bolder;
+
+         
+          margin-bottom: 25px;
+
+
+      }
+
+      .fourDiv {
+          width: 75%;
+          height: 30vmin;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+
+        font-size: 2.3vmin;
+
+        
+
+
+
+
+          /* border: 2px solid white; */
+
+      }
+
+      .fourDiv div {
+        text-align: center;
+       
+        border-bottom: 2px solid whitesmoke;
+          padding-bottom: 16px;
+          font-weight: bolder;
+          color: whitesmoke;
+      }
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width:500px) {
+
+    .main {
+    
+            height: 225vmin;
+            width: 100%;
+            cursor: pointer;
+            background-color: #0033cc;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: space-around; */
+            color: whitesmoke;
+    
+    
+    
+    
+    
+        }
+    
+    
+        .firstDiv {
+            height: 15vmin;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3.1vmin;
+            font-weight: bolder;
+    
+        }
+    
+        .secondDiv {
+            width: 75%;
+            height: 155vmin;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+    
+            /* border: 2px solid white; */
+        }
+    
+        .secondDivItems {
+            height: 50vmin;
+            width: 80%;
+            border-radius: 10px;
+    
+        }
+    
+        .threedDiv {
+    
+            height: 10vmin;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.9vmin;
+            font-weight: bolder;
+    
+    
+            margin-bottom: 25px;
+    
+    
+        }
+    
+        .fourDiv {
+            width: 75%;
+            height: 40vmin;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+    
+            font-size: 2.8vmin;
+    
+    
+    
+    
+    
+    
+            /* border: 2px solid white; */
+    
+        }
+    
+        .fourDiv div {
+            text-align: center;
+    
+            border-bottom: 2px solid whitesmoke;
+            padding-bottom: 16px;
+            font-weight: bolder;
+            color: whitesmoke;
+        }
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
