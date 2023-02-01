@@ -332,12 +332,11 @@
 
 
 
-
 @media only screen and (max-width: 600px) {
 
     .main {
 
-        height:100vmax;
+        height: 100vmax;
         width: 100%;
         cursor: pointer;
         background-color: whitesmoke;
@@ -356,7 +355,7 @@
 
 
     .firstDiv {
-       
+
         height: 8vmin;
         width: 70%;
         display: flex;
@@ -396,19 +395,19 @@
 
     .threedDiv {
         width: 75%;
-        height: 67vmax;
+        height: 53vmax;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
 
-       
+
 
     }
 
 
     .threedDivItems1 {
-        height: 32vmax;
+        height: 25vmax;
         width: 32%;
         border-radius: 8px;
 
@@ -418,7 +417,7 @@
 
 
     .threedDivItems2 {
-        height: 32vmax;
+        height: 25vmax;
         width: 48%;
         border-radius: 8px;
 
@@ -429,34 +428,3 @@
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
