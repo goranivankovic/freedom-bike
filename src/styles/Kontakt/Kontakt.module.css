@@ -120,6 +120,7 @@ input[type="email"] {
    
 }
 textarea{
+    height: 24vmin;
     width: 90%;
     border-radius: 6px;
         border: 2px solid #33f;
@@ -174,7 +175,7 @@ textarea:hover{
     .button {
     
             padding: 6px;
-            height: 5vmin;
+            height: 4.5vmin;
             width: 17vmin;
             border-radius: 6px;
             display: flex;
@@ -193,7 +194,7 @@ textarea:hover{
 
                   input[type="text"] {
                       padding: 6px;
-                      height: 3.5vmin;
+                      height: 3vmin;
                       width: 65%;
                       border-radius: 6px;
                       border: 2px solid #33f;
@@ -203,7 +204,7 @@ textarea:hover{
         
                   input[type="email"] {
                       padding: 6px;
-                      height: 3.5vmin;
+                      height: 3vmin;
                       width: 65%;
                       border-radius: 6px;
                       border: 2px solid #33f;
@@ -238,7 +239,7 @@ textarea:hover{
     .button {
 
         padding: 6px;
-        height: 4.5vmin;
+        height: 4vmin;
         width: 17vmin;
         border-radius: 6px;
         display: flex;
