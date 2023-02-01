@@ -1,0 +1,176 @@
+
+
+
+
+
+.images {
+    height: 100vmin;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+
+.imagesFirstDiv {
+    height: 70vmin;
+    width: 65%;
+
+    border-radius: 8px;
+
+
+    /* border: 2px solid red; */
+
+}
+
+.cross {
+    width: 65%;
+    font-size: 3vmin;
+    margin-bottom: 10px;
+
+
+}
+
+.cross:hover {
+    transition: 600ms;
+    color: firebrick;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+
+    .images {
+        height: 100vmin;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+
+
+
+        align-items: center;
+
+
+
+
+
+
+    }
+
+
+
+    .imagesFirstDiv {
+        height: 60vmin;
+        width: 75%;
+
+        border-radius: 8px;
+
+
+        /* border: 2px solid red; */
+
+    }
+
+    .cross {
+        width: 70%;
+        font-size: 3vmin;
+        margin-bottom: 10px;
+
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+  
+
+
+
+
+    .images {
+        height: 160vmin;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+        align-items:center;
+
+
+        /* border: 2px solid red; */
+
+
+
+    }
+
+
+
+    .imagesFirstDiv {
+        height:85vmin;
+        width: 85%;
+
+        border-radius: 8px;
+
+
+        /* border: 2px solid red; */
+
+    }
+
+    .cross {
+        width: 80%;
+        font-size: 4.2vmin;
+        margin-bottom: 10px;
+
+
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+
+}

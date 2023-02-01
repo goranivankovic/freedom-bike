@@ -3,9 +3,6 @@ import galerijaStyles from '../../styles/Galerija/Galerija.module.css'
 
 
 
-import b17 from '../../img/b17.jpg'
-
-
 import b2 from '../../img/b2.jpg'
 import b3 from '../../img/b3.jpg'
 import b4 from '../../img/b4.jpg'
@@ -22,21 +19,33 @@ import b10 from '../../img/b10.jpg'
 import b11 from '../../img/b11.jpg'
 import b12 from '../../img/b12.jpg'
 
+import b17 from '../../img/b17.jpg'
+
+
+
+
+
+
+
+
 import { useState,useEffect } from 'react'
 
 
 
+import {  useDispatch ,useSelector } from 'react-redux'
+import { setlazFun , b2Fun,b3Fun,b4Fun,b5Fun,b6Fun,b7Fun, b8Fun,b9Fun,b10Fun,b11Fun,b12Fun,b17Fun} from '../../Redux/imageReducer'
 
-import{ImCross} from 'react-icons/im'
+
+
 
 
 
 function Galerija() {
+    const dispatch = useDispatch()
 
   const[ar,setAr]=useState({})
 
-  const[laz,setLaz]=useState(false)
-  const[slika,setSlika]=useState('')
+
 
 
   useEffect(() => {
@@ -67,94 +76,115 @@ function Galerija() {
     
   }
 
-  function closeImage() {
 
-    setLaz(!laz)
-    
-  }
 
   //Image 2
 
   function i2() {
-    setSlika(b2)
-    setLaz(!laz)
+    dispatch(setlazFun())
+     dispatch(b2Fun())
+
   }
+
+
 
    //Image 3
     function i3() {
-    setSlika(b3)
-    setLaz(!laz)
+
+       dispatch(setlazFun())
+     dispatch(b3Fun())
+  
+
+
   }
 
 
    //Image 4
     function i4() {
-    setSlika(b4)
-    setLaz(!laz)
+
+       dispatch(setlazFun())
+     dispatch(b4Fun())
+
+
   }
 
 
 
    //Image 5
     function i5() {
-    setSlika(b5)
-    setLaz(!laz)
+       dispatch(setlazFun())
+     dispatch(b5Fun())
+
+
   }
 
 
 
    //Image 6
     function i6() {
-    setSlika(b6)
-    setLaz(!laz)
+
+       dispatch(setlazFun())
+     dispatch(b6Fun())
+
   }
 
 
    //Image 7
     function i7() {
-    setSlika(b7)
-    setLaz(!laz)
+       dispatch(setlazFun())
+     dispatch(b7Fun())
+  
   }
 
 
 
    //Image 8
     function i8() {
-    setSlika(b8)
-    setLaz(!laz)
+
+       dispatch(setlazFun())
+     dispatch(b8Fun())
+  
   }
 
 
    //Image 9
     function i9() {
-    setSlika(b9)
-    setLaz(!laz)
+
+       dispatch(setlazFun())
+     dispatch(b9Fun())
+  
   }
 
      //Image 10
     function i10() {
-    setSlika(b10)
-    setLaz(!laz)
+       dispatch(setlazFun())
+     dispatch(b10Fun())
+   
   }
 
      //Image 11
     function i11() {
-    setSlika(b11)
-    setLaz(!laz)
+       dispatch(setlazFun())
+     dispatch(b11Fun())
+   
   }
 
      //Image 12
     function i12() {
-    setSlika(b12)
-    setLaz(!laz)
+
+       dispatch(setlazFun())
+     dispatch(b12Fun())
+ 
   }
 
      //Image 17
     function i17() {
-    setSlika(b17)
-    setLaz(!laz)
+       dispatch(setlazFun())
+     dispatch(b17Fun())
+  
   }
 
+ 
 
 
 
@@ -173,7 +203,7 @@ function Galerija() {
   return (
    <div>
 
-    { !laz ?
+
 
     <div className={galerijaStyles.main} id="galerija">
 
@@ -209,31 +239,7 @@ function Galerija() {
 
         </div>
 
-        :
 
-
-        <div className={galerijaStyles.images} id="galerija">
-
-         <div className={galerijaStyles.cross}><ImCross  onClick={closeImage} /> </div> 
-
-          <img src={slika} className={galerijaStyles.imagesFirstDiv}   alt="freedomBike"/>
-
-
-         
-
-
-        </div>
-        
-        
-        }
-
-
-
-
-
-
-
-    
 
     </div>
   )

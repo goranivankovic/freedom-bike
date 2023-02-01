@@ -16,26 +16,33 @@ import Kontakt from './components/Kontakt/Kontakt';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import FullScrenImage from './components/FullScrenImage/FullScrenImage';
+
+
+
+
+
+import { useSelector, useDispatch } from 'react-redux'
 
 
 
 
 
 
-
-
-
-
-
-
-import React from 'react'
 
 
 function App() {
+   const laz = useSelector((state) => state.picture.laz)
 
   AOS.init()
   return (
+
+
     <div>
+      {laz ?
+
+       <div>
+        
       <Navic />
       <Pocetna />
       <Onama />
@@ -44,7 +51,17 @@ function App() {
       <Kontakt />
 
       <Footer />
+
+      </div>
+
+      : 
      
+        <FullScrenImage />
+      
+      
+
+      }
+
 
     </div>
   )
