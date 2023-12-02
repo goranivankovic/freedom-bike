@@ -1,362 +1,38 @@
-
-
-
-
-
-.main{
-
-    height: 100vmin;
+.main {
+    min-height: 100dvh;
     width: 100%;
-    cursor: pointer;
-    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
-    align-items:center;
-    justify-content: space-around;
+     align-items: center;
+     justify-content: space-around;
 
+
+
+}
+
+.headline{
+    font-size: 1.2rem;
+    width: 60%;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* border: 2px solid red; */
 }
 
 .firstDiv{
-    height: 15vmin;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.5vmin;
-    font-weight: bolder;
-    color: black;
-}
-
-.secondDiv{
-    height: 75vmin;
-    width: 65%;
-    display: flex;
-   justify-content: space-around;
-    flex-wrap: wrap;
-
-
-    /* border: 2px solid red; */
-}
-
-.secondDivItems{
-    height: 24.5vmin;
-    width: 24.5%;
-    border-radius: 10px;
-}
-
-
-.emptyDiv{
-    height: 10vmin;
-    width: 80%;
-}
-
-
-.images{
-    height: 100vmin;
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-  
-
-
-  
+    flex-wrap: wrap;
  
-    
-}
-
-
-
-.imagesFirstDiv{
-    height: 70vmin;
-    width: 65%;
-
-    border-radius: 8px;
-
-
-    /* border: 2px solid red; */
 
 }
 
-.cross{
-    width: 65%;
-    font-size: 3vmin;
-    margin-bottom: 10px;
+.firstDiv img{
 
-
+    width: 25%;
 }
-.cross:hover{
-    transition: 600ms;
-    color: firebrick;
-}
-
-
-
-
-
-@media only screen and (max-width: 768px) {
-
-
-    .main {
-    
-            height: 185vmin;
-            width: 100%;
-            cursor: pointer;
-            background-color: whitesmoke;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-    
-        }
-    
-        .firstDiv {
-            height: 15vmin;
-            width: 80%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2.7vmin;
-            font-weight: bolder;
-            color: black;
-        }
-    
-        .secondDiv {
-            height: 160vmin;
-            width: 70%;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-    
-    
-            /* border: 2px solid red; */
-        }
-    
-        .secondDivItems {
-            height: 39.5vmin;
-            width: 32.5%;
-            border-radius: 10px;
-        }
-    
-    
-        .emptyDiv {
-            height: 10vmin;
-            width: 80%;
-        }
-
-
-               .images {
-                    height: 100vmin;
-                    width: 100%;
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                    align-items: center;
-        
-        
-        
-        
-        align-items: center;
-        
-        
-        
-        
-        
-        
-        }
-        
-        
-        
-        .imagesFirstDiv {
-            height: 60vmin;
-            width: 75%;
-        
-            border-radius: 8px;
-        
-        
-            /* border: 2px solid red; */
-        
-        }
-        
-                .cross {
-                    width: 70%;
-                    font-size: 3vmin;
-                    margin-bottom: 10px;
-        
-        
-                }
-
-
-    
-
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-  @media only screen and (max-width: 600px) {
-
-
-      .main {
-
-          height: 185vmin;
-          width: 100%;
-          cursor: pointer;
-          background-color: whitesmoke;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: space-around;
-
-      }
-
-      .firstDiv {
-          height: 15vmin;
-          width: 85%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 2.9vmin;
-          font-weight: bolder;
-          color: black;
-      }
-
-      .secondDiv {
-          height: 160vmin;
-          width: 75%;
-          display: flex;
-          justify-content: space-around;
-          flex-wrap: wrap;
-
-
-          /* border: 2px solid red; */
-      }
-
-      .secondDivItems {
-          height: 39.5vmin;
-          width: 32.5%;
-          border-radius: 10px;
-      }
-
-
-      .emptyDiv {
-          height: 10vmin;
-          width: 80%;
-      }
-
-
-
-
-
-                .images {
-                    height: 130vmin;
-                    width: 100%;
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                    align-items: center;
-        
-        
-        
-        
-        
-        
-                }
-        
-        
-        
-                .imagesFirstDiv {
-                    height: 67vmin;
-                    width:75%;
-        
-                    border-radius: 8px;
-        
-        
-                    /* border: 2px solid red; */
-        
-                }
-        
-                .cross {
-                    width: 75%;
-                    font-size: 4vmin;
-                    margin-bottom: 10px;
-        
-        
-                }
-
-
-
-
-
-
-
-
-  }
-
-
-
-
-
-
-  @media only screen and (max-width: 500px) {
-
-
-    .main {
-    
-            height: 295vmin;
-            width: 100%;
-            cursor: pointer;
-            background-color: whitesmoke;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-    
-        }
-    
-        .firstDiv {
-            height: 15vmin;
-            width: 85%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2.9vmin;
-            font-weight: bolder;
-            color: black;
-        }
-    
-        .secondDiv {
-            height: 270vmin;
-            width: 75%;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-    
-    
-            /* border: 2px solid red; */
-        }
-    
-        .secondDivItems {
-            height: 43vmin;
-            width: 48%;
-            border-radius: 10px;
-        }
-    
-    
-        .emptyDiv {
-            height: 10vmin;
-            width: 80%;
-        }
-    }
 
 

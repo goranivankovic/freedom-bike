@@ -1,75 +1,85 @@
-
-
-
-
-.main{
-
- 
-    height: 100vmin;
+.main {
+    min-height: 100dvh;
     width: 100%;
-    cursor: pointer;
-    background-color:#0033cc ;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-around; */
-    z-index: 4;
+    justify-content: space-around;
 
-
- 
 }
 
-.firstDiv{
-        height: 15vmin;
-        width: 65%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 2.8vmin;
-        font-weight: bolder;
-        color: whitesmoke;
 
-    /* border-bottom: 2px solid white; */
+.prazanDiv{
+    width: 60%;
+    padding: 1em;
 }
 
+.headline{
+    min-width: 50%;
+    padding: 2em;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+
+    /* border: 2px solid red; */
+
+}
 
 
 .secondDiv{
-
-        height: 50vmin;
-        width: 65%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-weight: bolder;
-        color: whitesmoke;
-    
-        /* border-bottom: 2px solid white; */
-
-}
+    max-width: 60rem;
+    padding: 1em;
 
 
-
-.secondDivItems1{
-
-    height: 49vmin;
-    width: 48%;
-    border-radius: 6px;
-    
-
-}
-
-.secondDivItems2 {
-
-    height: 49vmin;
-    width: 48%;
     display: flex;
-    align-items: flex-start;
-    font-size:1.85vmin ;
-    padding: 20px;
-    background-color: grey;
-    color: whitesmoke;
-    border-radius: 6px;
+   align-items: center;
+  justify-content: space-between;
+    margin-bottom: 1em;
+    
+        /* border: 2px solid red; */
+        
+}
+
+
+.secondDivItem1{
+
+    min-width: 48%;
+    padding: 1em;
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  font-size: .9rem;
+
+
+
+
+
+}
+
+.secondDivItem1 div{
+    padding: 1em;
+}
+
+
+
+
+
+
+.secondDivItem2 {
+   min-height: 22rem;
+    min-width: 48%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('../../img/b8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
 
 
 }
@@ -77,379 +87,134 @@
 
 
 .threedDiv{
-
-       height: 20vmin;
-        width: 65%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-weight: bolder;
-        color: whitesmoke;
-    
-        /* border: 2px solid white; */
-
-}
+   max-width: 70rem;
 
 
-.threedDivItems1{
-    width: 47%;
-    height: 16vmin;
-    background-color: grey;
-    color: whitesmoke;
-    font-size: 1.5vmin;
-    padding: 15px;
+
     display: flex;
-    flex-direction: column;
-    border-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
 
-}
-
-
-
-.threedDivItems2 {
-    width: 47%;
-    height: 16vmin;
-    background-color: whitesmoke;
-    color: black;
-    font-size: 1.5vmin;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 6px;
-
-}
-
-
-
-
-
-
-
-
-
-
-.emptyDiv{
-    width: 90%;
-    height: 10vmin;
+    margin-bottom: 1em;
 
     /* border: 2px solid red; */
 
 }
 
 
+.threedDivItems{
 
-@media only screen and (min-width: 1922px) and (max-width: 2562px) {
+    min-height: 25rem;
 
-    .secondDiv {
-    
-            height: 50vmin;
-            width: 65%;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            font-weight: bolder;
-            color: whitesmoke;
-    
-            /* border-bottom: 2px solid white; */
-    
-        }
-    
-    
-    
-        .secondDivItems1 {
-    
-            height: 49vmin;
-            width: 48%;
-            border-radius: 6px;
-    
-    
-        }
+    border-radius: .6em;
 
-                .secondDivItems2 {
-        
-                    height: 49vmin;
-                    width: 48%;
-                    display: flex;
-                    align-items: flex-start;
-                    font-size: 1.75vmin;
-                    padding: 20px;
-                    background-color: grey;
-                    color: whitesmoke;
-                    border-radius: 6px;
-        
-        
-                }
+    
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   box-shadow: 1px 1px 10px 1px var(--grey);
 
+    margin-bottom: 1em;
 
-
-                                .threedDivItems1 {
-                                    width: 47%;
-                                    height: 16vmin;
-                                    background-color: grey;
-                                    color: whitesmoke;
-                                    font-size: 1.4vmin;
-                                    padding: 15px;
-                                    display: flex;
-                                    flex-direction: column;
-                                    border-radius: 6px;
-                
-                                }
-                
-                
-                
-                                .threedDivItems2 {
-                                    width: 47%;
-                                    height: 16vmin;
-                                    background-color: whitesmoke;
-                                    color: black;
-                                    font-size: 1.4vmin;
-                                    padding: 15px;
-                                    display: flex;
-                                    flex-direction: column;
-                                    border-radius: 6px;
-                
-                                }
-
-
+    /* border: 1px solid green; */
 
 
 }
 
+.threedDivItems div{
+    padding: .7em;
+    font-size: .85rem;
+}
 
+.threedDivItems:hover{
+    transition: 500ms;
+    transform: scale(.98);
+}
 
+.threedDivItems2:hover {
+    transition: 500ms;
+    transform: scale(.98);
+}
 
-@media only screen and (min-width: 1600px) and (max-width: 1922px) {
+.threedDivItems3:hover {
+    transition: 500ms;
+    transform: scale(.98);
+}
 
-
-    .secondDiv {
-    
-            height: 50vmin;
-            width: 65%;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            font-weight: bolder;
-            color: whitesmoke;
-    
-            /* border-bottom: 2px solid white; */
-    
-        }
-    
-    
-    
-        .secondDivItems1 {
-    
-            height: 49vmin;
-            width: 48%;
-            border-radius: 6px;
-    
-    
-        }
-    
-        .secondDivItems2 {
-    
-            height: 49vmin;
-            width: 48%;
-            display: flex;
-            align-items: flex-start;
-            font-size: 1.75vmin;
-            padding: 20px;
-            background-color: grey;
-            color: whitesmoke;
-            border-radius: 6px;
-    
-    
-        }
-    
-    
-    
-        .threedDivItems1 {
-            width: 47%;
-            height: 16vmin;
-            background-color: grey;
-            color: whitesmoke;
-            font-size: 1.4vmin;
-            padding: 15px;
-            display: flex;
-            flex-direction: column;
-            border-radius: 6px;
-    
-        }
-    
-    
-    
-        .threedDivItems2 {
-            width: 47%;
-            height: 16vmin;
-            background-color: whitesmoke;
-            color: black;
-            font-size: 1.4vmin;
-            padding: 15px;
-            display: flex;
-            flex-direction: column;
-            border-radius: 6px;
-    
-        }
-
-
+.threedDivItems4:hover {
+    transition: 500ms;
+    transform: scale(.98);
 }
 
 
 
+.threedDivItems div:nth-child(1){
+      min-height: 12rem;
+      width: 100%;
+       background-image: url('../../img/b7.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
 
-@media only screen and (max-width: 1200px) {
-
-
-    .secondDiv {
-
-        height: 50vmin;
-        width: 65%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-weight: bolder;
-        color: whitesmoke;
-
-        /* border-bottom: 2px solid white; */
-
-    }
-
-
-
-    .secondDivItems1 {
-
-        height: 49vmin;
-        width: 48%;
-        border-radius: 6px;
-
-
-    }
-
-    .secondDivItems2 {
-
-        height: 49vmin;
-        width: 48%;
-        display: flex;
-        align-items: flex-start;
-        font-size: 1.65vmin;
-        padding: 20px;
-        background-color: grey;
-        color: whitesmoke;
-        border-radius: 6px;
-
-
-    }
-
-
-
-    .threedDivItems1 {
-        width: 47%;
-        height: 15vmin;
-        background-color: grey;
-        color: whitesmoke;
-        font-size: 1.3vmin;
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        border-radius: 6px;
-
-    }
-
-
-
-    .threedDivItems2 {
-        width: 47%;
-        height: 15vmin;
-        background-color: whitesmoke;
-        color: black;
-        font-size: 1.3vmin;
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        border-radius: 6px;
-
-    }
-
-
-}
-
-
-
-
-@media only screen and (max-width: 992px) {
-
-
-    .secondDiv {
-
-        height: 50vmin;
-        width: 65%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-weight: bolder;
-        color: whitesmoke;
-
-        /* border-bottom: 2px solid white; */
-
-    }
-
-
-
-    .secondDivItems1 {
-
-        height: 49vmin;
-        width: 48%;
-        border-radius: 6px;
-
-
-    }
-
-    .secondDivItems2 {
-
-        height: 49vmin;
-        width: 48%;
-        display: flex;
-        align-items: flex-start;
-        font-size: 1.45vmin;
-        padding: 20px;
-        background-color: grey;
-        color: whitesmoke;
-        border-radius: 6px;
-
-
-    }
-
+     border-top-right-radius: .6em;
+       border-top-left-radius: .6em;
+        border: none;
+      
 
    
-
-
-    .threedDivItems1 {
-        width: 47%;
-        height: 15vmin;
-        background-color: grey;
-        color: whitesmoke;
-        font-size: 1.2vmin;
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        border-radius: 6px;
-
-    }
+}
 
 
 
-    .threedDivItems2 {
-        width: 47%;
-        height: 15vmin;
-        background-color: whitesmoke;
-        color: black;
-        font-size: 1.2vmin;
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        border-radius: 6px;
 
-    }
+
+
+
+
+
+
+.threedDivItems2 {
+
+    min-height: 25rem;
+
+    border-radius: .6em;
+
+
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px 1px var(--grey);
+
+    margin-bottom: 1em;
+
+    /* border: 1px solid green; */
+
+
+}
+
+.threedDivItems2 div {
+    padding: .7em;
+    font-size: .85rem;
+}
+
+
+
+.threedDivItems2 div:nth-child(1) {
+    min-height: 12rem;
+    width: 100%;
+    background-image: url('../../img/group.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-top-right-radius: .6em;
+    border-top-left-radius: .6em;
+    border: none;
+
 
 
 }
@@ -465,132 +230,46 @@
 
 
 
+.threedDivItems3 {
+
+    min-height: 25rem;
+
+    border-radius: .6em;
+
+
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px 1px var(--grey);
+
+    margin-bottom: 1em;
+
+    /* border: 1px solid green; */
+
+
+}
+
+.threedDivItems3 div {
+    padding: .7em;
+    font-size: .85rem;
+}
 
 
 
+.threedDivItems3 div:nth-child(1) {
+    min-height: 12rem;
+    width: 100%;
+    background-image: url('../../img/girl.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
-@media only screen and (max-width: 768px) {
+    border-top-right-radius: .6em;
+    border-top-left-radius: .6em;
+    border: none;
 
-
-    .main {
-    
-    
-            height: 160vmin;
-            width: 100%;
-            cursor: pointer;
-            background-color: #0033cc;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            /* justify-content: space-around; */
-            z-index: 4;
-    
-    
-    
-        }
-    
-        .firstDiv {
-            height: 15vmin;
-            width: 85%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2.8vmin;
-            font-weight: bolder;
-            color: whitesmoke;
-    
-            /* border-bottom: 2px solid white; */
-        }
-
-
-
-
-    .secondDiv {
-
-        height: 105vmin;
-        width: 70%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        font-weight: bolder;
-        color: whitesmoke;
-
-        /* border-bottom: 2px solid white; */
-
-    }
-
-
-
-    .secondDivItems1 {
-
-        height: 49vmin;
-        width: 80%;
-        border-radius: 6px;
-
-
-    }
-
-    .secondDivItems2 {
-
-        height: 49vmin;
-        width: 80%;
-        display: flex;
-        align-items: flex-start;
-        font-size: 1.9vmin;
-        padding: 20px;
-        background-color: grey;
-        color: whitesmoke;
-        border-radius: 6px;
-
-
-    }
-
-
-        .threedDiv {
-    
-            height: 35vmin;
-            width: 70%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            font-weight: bolder;
-            color: whitesmoke;
-    
-            /* border: 2px solid white; */
-    
-        }
-
-
-
-    .threedDivItems1 {
-        width: 80%;
-        height: 15vmin;
-        background-color: grey;
-        color: whitesmoke;
-        font-size: 1.6vmin;
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        border-radius: 6px;
-
-    }
-
-
-
-    .threedDivItems2 {
-        width: 80%;
-        height: 15vmin;
-        background-color: whitesmoke;
-        color: black;
-        font-size: 1.6vmin;
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        border-radius: 6px;
-
-    }
 
 
 }
@@ -606,271 +285,46 @@
 
 
 
+.threedDivItems4 {
 
-@media only screen and (max-width: 600px) {
+    min-height: 25rem;
 
-
-    .main {
-
-
-        height: 170vmin;
-        width: 100%;
-        cursor: pointer;
-        background-color: #0033cc;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /* justify-content: space-around; */
-        z-index: 4;
+    border-radius: .6em;
 
 
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px 1px var(--grey);
 
-    }
+    margin-bottom: 1em;
 
-    .firstDiv {
-        height: 15vmin;
-        width: 95%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 3vmin;
-        font-weight: bolder;
-        color: whitesmoke;
-
-        /* border-bottom: 2px solid white; */
-    }
-
-
-
-
-    .secondDiv {
-
-        height: 115vmin;
-        width: 75%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        font-weight: bolder;
-        color: whitesmoke;
-
-        /* border-bottom: 2px solid white; */
-
-    }
-
-
-
-    .secondDivItems1 {
-
-        height: 54vmin;
-        width: 85%;
-        border-radius: 6px;
-
-
-    }
-
-    .secondDivItems2 {
-
-        height: 54vmin;
-        width: 85%;
-        display: flex;
-        align-items: flex-start;
-        font-size: 2.1vmin;
-        padding: 20px;
-        background-color: grey;
-        color: whitesmoke;
-        border-radius: 6px;
-
-
-    }
-
-
-    .threedDiv {
-
-        height: 35vmin;
-        width: 75%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        font-weight: bolder;
-        color: whitesmoke;
-
-        /* border: 2px solid white; */
-
-    }
-
-
-
-    .threedDivItems1 {
-        width: 85%;
-        height: 15vmin;
-        background-color: grey;
-        color: whitesmoke;
-        font-size: 1.65vmin;
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        border-radius: 6px;
-
-    }
-
-
-
-    .threedDivItems2 {
-        width: 85%;
-        height: 15vmin;
-        background-color: whitesmoke;
-        color: black;
-        font-size: 1.65vmin;
-        padding: 15px;
-        display: flex;
-        flex-direction: column;
-        border-radius: 6px;
-
-    }
+    /* border: 1px solid green; */
 
 
 }
-   
+
+.threedDivItems4 div {
+    padding: .7em;
+    font-size: .85rem;
+}
 
 
 
+.threedDivItems4 div:nth-child(1) {
+    min-height: 12rem;
+    width: 100%;
+    background-image: url('../../img/b9.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
+    border-top-right-radius: .6em;
+    border-top-left-radius: .6em;
+    border: none;
 
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 500px) {
-
-
-    .main {
-
-
-        height: 200vmin;
-        width: 100%;
-        cursor: pointer;
-        background-color: #0033cc;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /* justify-content: space-around; */
-        z-index: 4;
-
-
-
-    }
-
-    .firstDiv {
-        height: 15vmin;
-        width: 95%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 3.2vmin;
-        font-weight: bolder;
-        color: whitesmoke;
-
-        /* border-bottom: 2px solid white; */
-    }
-
-
-
-
-    .secondDiv {
-
-        height: 115vmin;
-        width: 75%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        font-weight: bolder;
-        color: whitesmoke;
-
-        /* border-bottom: 2px solid white; */
-
-    }
-
-
-
-    .secondDivItems1 {
-
-        height: 54vmin;
-        width: 90%;
-        border-radius: 6px;
-
-
-    }
-
-    .secondDivItems2 {
-
-        height: 54vmin;
-        width: 90%;
-        display: flex;
-        align-items: flex-start;
-        font-size: 2.6vmin;
-        padding: 20px;
-        background-color: grey;
-        color: whitesmoke;
-        border-radius: 6px;
-
-        overflow: scroll;
-
-
-    }
-
-
-    .threedDiv {
-
-        height: 65vmin;
-        width: 75%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        font-weight: bolder;
-        color: whitesmoke;
-
-        /* border: 2px solid white; */
-
-    }
-
-
-
-    .threedDivItems1 {
-        width: 90%;
-        height: 30vmin;
-        background-color: grey;
-        color: whitesmoke;
-        font-size: 2.5vmin;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        border-radius: 6px;
-
-    }
-
-
-
-    .threedDivItems2 {
-        width: 90%;
-        height: 30vmin;
-        background-color: whitesmoke;
-        color: black;
-        font-size: 2.5vmin;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        border-radius: 6px;
-
-    }
 
 
 }

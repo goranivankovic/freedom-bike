@@ -3,27 +3,26 @@
 
 import logo from './logo.svg';
 import './App.css';
-
-
-import Navic from './components/Nav/Navic';
-import Pocetna from './components/Pocetna/Pocetna';
-import Onama from './components/Onama/Onama';
-import Galerija from './components/Galerija/Galerija'
-import Oprema from './components/Oprema/Oprema';
-import Footer from './components/Footer/Footer'
-import Kontakt from './components/Kontakt/Kontakt';
-
-
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import FullScrenImage from './components/FullScrenImage/FullScrenImage';
+
+
+import Navic from './components/Nav/Navic.jsx';
+import Pocetna from './components/Pocetna/Pocetna.jsx';
+import KakoUraditi from './components/KakoUraditi/KakoUraditi';
+import Putovanja from './components/Putovanja/Putovanja.jsx';
+
+import Galerija from './components/Galerija/Galerija.jsx';
 
 
 
 
 
 import { useSelector, useDispatch } from 'react-redux'
-
+import Onama from './components/Onama/Onama.jsx';
+import Komentar from './components/Komentar/Komentar.jsx';
+import Contact from './components/Contact/Contact.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 
 
@@ -41,22 +40,32 @@ function App() {
     <div>
       {laz ?
 
-       <div>
+       <div >
         
+ 
       <Navic />
       <Pocetna />
+      <KakoUraditi />
+      <Putovanja />
       <Onama />
       <Galerija />
-      <Oprema />
-      <Kontakt />
-
+      <Komentar />
+      <Contact />
       <Footer />
+
+
+
+   
+      
+
+
+
 
       </div>
 
       : 
      
-        <FullScrenImage />
+      ''
       
       
 

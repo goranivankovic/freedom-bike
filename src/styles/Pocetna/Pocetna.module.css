@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 *{
     margin: 0%;
@@ -10,421 +10,98 @@
 
 .main{
 
-    height: 100vmin;
+    height: 100dvh;
     width: 100%;
     cursor: pointer;
-    background-color: whitesmoke;
     z-index: 3;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
- 
- 
+    justify-content: center;
+    
+    background-image: url('../../img/Home.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: 450;
 }
 
 
 
 .firstDiv{
-    height: 12vmin;
-    width: 65%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    font-size:2.4vmin;
-    font-weight: bolder;
-
-
-    /* border: 1px solid red; */
-   
-
-
-}
-
-.icon{
-    margin-left: 10px;
-    color: #0033cc;
-    font-size: 3vmin;
-    
-}
-
-.secondDiv{
-    height: 8vmin;
-    width: 75%;
+    padding: 1em;
+    min-width: 65%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bolder;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+
+
 
 
     /* border: 1px solid red; */
+
+    
 }
 
 
-
-.threedDiv{
-    width: 65%;
-    height: 67vmin;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-
-    /* border: 2px solid red; */
-
-}
-
-
- .threedDivItems1{
-    height: 32vmin;
-    width:32%;
-    border-radius: 8px;
-
-   
-
-}
-
-.threedDivItems1 video{
-    border-radius: 8px;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-   
-  
-}
-
-
-
-
-
-
-
-.threedDivItems2 {
-    height: 32vmin;
-    width: 48.5%;
-    border-radius: 8px;
-
-}
-
-.threedDivItems2 video {
-    border-radius: 8px;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-
-
-}
-
-.emptyDiv{
-    height: 10vmin;
-    width: 90%;
-}
-
-
-
-@media only screen and (min-width: 1922px) and (max-width: 2562px) {
-
-    .secondDiv {
-            height: 8vmin;
-            width: 75%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bolder;
-            font-size: 2.1vmin;
-    
-    
-            /* border: 1px solid red; */
-        }
-
-
-   
-
-
-}
-
-
-
-@media only screen and (min-width: 1600px) and (max-width: 1922px) {
-
-    .secondDiv {
-        height: 8vmin;
-        width: 75%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: bolder;
-        font-size: 2vmin;
-
-
-        /* border: 1px solid red; */
-    }
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-@media only screen and  (max-width: 992px) {
-
-
-
-    .firstDiv {
-            height: 12vmin;
-            width: 65%;
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            font-size: 2.2vmin;
-            font-weight: bolder;
-    
-    
-            /* border: 1px solid red; */
-    
-    
-    
-        }
-    
-        .icon {
-            margin-left: 10px;
-            color: #0033cc;
-            font-size: 2.8vmin;
-    
-        }
-    
-        .secondDiv {
-            height: 8vmin;
-            width: 75%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bolder;
-            font-size: 2vmin;
-    
-    
-            /* border: 1px solid red; */
-        }
-
-
-}
-
-
-
-
-
-
-@media only screen and (max-width: 768px) {
-
-    .main {
-    
-            height: 100vmax;
-            width: 100%;
-            cursor: pointer;
-            background-color: whitesmoke;
-            z-index: 3;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-          
-    
-    
-        }
-
-   
-    
-    
-    
-        .firstDiv {
-            
-           
-            height: 12vmin;
-            width: 70%;
-            display: flex;
-            align-items: flex-end;
-            justify-content: flex-end;
-            font-size: 2.2vmin;
-            font-weight: bolder;
-    
-    
-    
-    
-    
-        }
-    
-        .icon {
-            margin-left: 10px;
-            color: #0033cc;
-            font-size: 2.7vmin;
-    
-        }
-    
-        .secondDiv {
-            height: 8vmin;
-            width: 80%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bolder;
-            font-size: 2vmin;
-    
-    
-          
-        }
-    
-    
- 
-        .threedDiv {
-     width: 70%;
-    height: 67vmin;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-
-
-
-}
-
-    
-        .threedDivItems1 {
-            height: 32vmin;
-            width: 32%;
-            border-radius: 8px;
-    
-    
-    
-        }
-
-
-                .threedDivItems2 {
-                    height: 32vmin;
-                    width: 48%;
-                    border-radius: 8px;
-        
-                }
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 600px) {
-
-    .main {
-
-        height: 100vmax;
-        width: 100%;
-        cursor: pointer;
-        background-color: whitesmoke;
-        z-index: 3;
+.secondDiv{
+       padding: 1em;
+        min-width: 65%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
-        /* justify-content: space-between; */
-
-
-    }
-
-
-
-
-
-    .firstDiv {
-
-        height: 8vmin;
-        width: 70%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        font-size: 3vmin;
-        font-weight: bolder;
-
-
-        /* border: 1px solid red; */
-
-
-
-    }
-
-    .icon {
-        margin-left: 10px;
-        color: #0033cc;
-        font-size: 3.6vmin;
-
-    }
-
-    .secondDiv {
-        height: 8vmin;
-        width: 95%;
-        display: flex;
-        align-items: center;
         justify-content: center;
-        font-weight: bolder;
-        font-size: 2.8vmin;
+        font-size: 1rem;
+        font-weight: 500;
+       
+}
 
+.secondDiv h5{
+    padding: 1em;
+   font-size: 1.2rem;
+/* border: 1px solid green; */
 
-        /* border: 1px solid red; */
-    }
+}
 
+.secondDiv div{
+    font-weight: 500;
+}
 
-
-    .threedDiv {
-        width: 75%;
-        height: 53vmax;
+.threedDiv{
+      padding: 1em;
+    min-width: 38rem;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
         align-items: center;
+        justify-content: space-around;
+        font-size: .95rem;
+        
+        
+
+        /* border: 2px solid teal; */
 
 
+}
 
-    }
+.threedDiv a{
+    padding: 1em;
+    text-decoration: none;
+    border: none;
+   width: 200px;
+   background: transparent;
+   font-weight: 500;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 450;
+   border-radius: .6em;
 
+}
 
-    .threedDivItems1 {
-        height: 25vmax;
-        width: 32%;
-        border-radius: 8px;
-
-
-
-    }
-
-
-    .threedDivItems2 {
-        height: 25vmax;
-        width: 48%;
-        border-radius: 8px;
-
-    }
-
-
-
-
-
+.threedDiv a:hover{
+    transition: 450ms;
+    transform: scale(.98);
 }

@@ -1,0 +1,77 @@
+
+
+
+
+
+
+.main {
+
+    margin-top: 4em;
+     margin-bottom: 4em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+/* border: 2px solid red; */
+
+}
+
+.imageDiv{
+    min-height: 30rem;
+        min-width: 49%;
+    background-image: url('../../img/tips.jpg');
+     background-position: center;
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formDiv{
+
+padding: 1em;
+min-height: 30rem;
+min-width: 49%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.formDiv div{
+    padding: .5em;
+   
+}
+
+.formDivHeadline{
+    margin-left:-.5em;
+    font-size: 1.4rem;
+}
+
+.formInput{
+    margin-left: .5em;
+    margin-top: 2.5em;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    max-width: 30rem;
+    border-radius: .7em;
+    
+}
+
+.formInput  span:nth-child(1){
+ padding:.4em;
+
+}
+
+.formInput  span:nth-child(2){
+padding: .4em;
+font-size: .9rem;
+
+
+}
+
+
+
+

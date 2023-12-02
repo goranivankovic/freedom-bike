@@ -1,0 +1,50 @@
+
+
+
+
+
+
+
+.main {
+  
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+
+.itemsFirstRow{
+  
+    width: 30%;
+    height: 33rem;
+}
+
+
+
+ video {
+
+
+    object-fit: cover;
+    width: 100%;
+    height: 33rem;
+
+
+}
+
+
+
+
+
+
+
+
+.itemsSecondRow {
+
+    width: 45%;
+    height: 33rem;
+}

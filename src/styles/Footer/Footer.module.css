@@ -1,107 +1,60 @@
+
+
 .main {
-
-
+    margin-top: 2em;
+    margin-bottom: 3em;
     width: 100%;
-    height: 35vmin;
-    background-color: #0033cc;
     display: flex;
+ flex-direction: column;
+
     align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 2vmin;
-  
+    justify-content: space-around;
+    padding: 1em;
 
 }
 
-.main a {
+.firstDiv{
+    padding: 1em;
+    min-width: 70rem;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+
+    /* border: 2px solid red; */
+
+}
+
+.firstDiv a{
+    padding: .6em;
     text-decoration: none;
-    font-weight: bolder;
-    padding-bottom: 6px;
-    color: whitesmoke;
-    padding-bottom: 7px;
-    border-bottom: 2px solid whitesmoke;
+    color: blue;
 }
 
 
 
-.main a:hover {
-    transition: 750ms;
-    text-decoration: none;
-    transform: scale(1.1);
-    padding-bottom: 6px;
-    color: whitesmoke;
-    padding-bottom: 10px;
-    border-bottom: 2px solid whitesmoke;
+.secondDiv {
+    padding: 1em;
+    min-width: 70rem;
+    font-size: 1.1rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    border-top: .2em solid var(--grey);
+
+    /* border: 2px solid red; */
 
 }
 
 
-
-
-@media only screen and (max-width: 600px) {
-
-    .main {
-    
-    
-            width: 100%;
-            height: 35vmin;
-            background-color: #0033cc;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            font-size: 2.3vmin;
-            
-    
-        }
-   
-
-}
-
-
-
-@media only screen and (max-width: 500px) {
-
-    .main {
-
-
-        width: 100%;
-        height: 35vmin;
-        background-color: #0033cc;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        font-size: 2.6vmin;
-        
-
-    }
+.secondDivItems{
+    min-width: 25%;
+    /* background-color: gold; */
 
 
 }
 
-
-
-
-
-@media only screen and (max-width: 400px) {
-
-    .main {
-
-
-        width: 100%;
-        height: 35vmin;
-        background-color: #0033cc;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        font-size: 2.8vmin;
-       
-
-    }
-
-
+.secondDivItems div{
+    padding: 1em;
 }
-
-
