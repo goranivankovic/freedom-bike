@@ -35,7 +35,67 @@
     width: 25%;
 }
 
+.secondDiv{
+    min-height: 100dvh;
+    width: 100%;
 
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secondDiv a{
+    margin-top: 2em;
+    padding: 1em;
+    min-width: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    font-size: 1.3rem;
+}
+
+.secondDiv img{
+    min-width: 60rem;
+    height: 35rem;
+    box-shadow: 1px 1px 10px 1px var(--grey);
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:60rem){
+.secondDiv a {
+        margin-top: 2em;
+        padding: 1em;
+        min-width: 50rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        font-size: 1.3rem;
+    }
+
+    .secondDiv img {
+        min-width: 50rem;
+        height: 30rem;
+    }
+}
 
 
 @media (max-width:50rem) {
@@ -62,6 +122,95 @@
     .firstDiv img {
 
         width: 50%;
+    }
+
+
+
+.secondDiv a {
+    margin-top: 2em;
+    padding: 1em;
+    min-width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    font-size: 1.3rem;
+}
+
+.secondDiv img {
+    min-width: 40rem;
+    height: 25rem;
+}
+
+
+}
+
+
+
+
+@media (max-width:40rem){
+
+.secondDiv {
+        min-height: 100svh;
+        width: 100%;
+
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        z-index: 100;
+
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+.secondDiv a {
+        margin-top: 2em;
+        padding-bottom: 1em;
+        min-width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        font-size: 1.2rem;
+    }
+
+    .secondDiv img {
+        min-width: 95%;
+        height: 25rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:31rem) {
+    .secondDiv a {
+        margin-top: 2em;
+        padding-bottom: .5em;
+        min-width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        font-size: 1.1rem;
+    }
+
+    .secondDiv img {
+        min-width: 95%;
+        height: 20rem;
     }
 }
 

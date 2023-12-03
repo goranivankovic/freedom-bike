@@ -33,7 +33,9 @@ import { useState,useEffect } from 'react'
 
 
 import {  useDispatch ,useSelector } from 'react-redux'
-import { setlazFun , b2Fun,b3Fun,b4Fun,b5Fun,b6Fun,b7Fun, b8Fun,b9Fun,b10Fun,b11Fun,b12Fun,b17Fun} from '../../Redux/imageReducer'
+
+
+import { ImCross } from "react-icons/im";
 
 
 
@@ -41,9 +43,18 @@ import { setlazFun , b2Fun,b3Fun,b4Fun,b5Fun,b6Fun,b7Fun, b8Fun,b9Fun,b10Fun,b11
 
 
 function Galerija() {
+
+
+   const back = useSelector((state) => state.color.back)
+  const txt = useSelector((state) => state.color.txt)
+  const grey = useSelector((state) => state.color.grey)
+
+
     const dispatch = useDispatch()
 
   const[ar,setAr]=useState({})
+
+  const[img,setImg]=useState('')
 
 
 
@@ -77,128 +88,121 @@ function Galerija() {
   }
 
 
+    function fun2() {
+let secondDiv =document.querySelector('#secondDiv')
+secondDiv.style.display='flex'
 
-  //Image 2
-
-  function i2() {
-    dispatch(setlazFun())
-     dispatch(b2Fun())
-
-  }
-
-
-
-   //Image 3
-    function i3() {
-
-       dispatch(setlazFun())
-     dispatch(b3Fun())
-  
-
-
-  }
-
-
-   //Image 4
-    function i4() {
-
-       dispatch(setlazFun())
-     dispatch(b4Fun())
-
-
-  }
-
-
-
-   //Image 5
-    function i5() {
-       dispatch(setlazFun())
-     dispatch(b5Fun())
-
-
-  }
-
-
-
-   //Image 6
-    function i6() {
-
-       dispatch(setlazFun())
-     dispatch(b6Fun())
-
-  }
-
-
-   //Image 7
-    function i7() {
-       dispatch(setlazFun())
-     dispatch(b7Fun())
-  
-  }
-
-
-
-   //Image 8
-    function i8() {
-
-       dispatch(setlazFun())
-     dispatch(b8Fun())
-  
-  }
-
-
-   //Image 9
-    function i9() {
-
-       dispatch(setlazFun())
-     dispatch(b9Fun())
-  
-  }
-
-     //Image 10
-    function i10() {
-       dispatch(setlazFun())
-     dispatch(b10Fun())
+   setImg(b2)
    
   }
 
-     //Image 11
-    function i11() {
-       dispatch(setlazFun())
-     dispatch(b11Fun())
+    function fun3() {
+let secondDiv =document.querySelector('#secondDiv')
+secondDiv.style.display='flex'
+
+   setImg(b3)
    
   }
 
-     //Image 12
-    function i12() {
 
-       dispatch(setlazFun())
-     dispatch(b12Fun())
- 
+
+      function fun4() {
+let secondDiv =document.querySelector('#secondDiv')
+secondDiv.style.display='flex'
+
+   setImg(b4)
+   
   }
 
-     //Image 17
-    function i17() {
-       dispatch(setlazFun())
-     dispatch(b17Fun())
-  
+
+      function fun5() {
+let secondDiv =document.querySelector('#secondDiv')
+secondDiv.style.display='flex'
+
+   setImg(b5)
+   
   }
 
- 
+
+      function fun6() {
+let secondDiv =document.querySelector('#secondDiv')
+secondDiv.style.display='flex'
+
+   setImg(b6)
+   
+  }
+
+
+      function fun7() {
+let secondDiv =document.querySelector('#secondDiv')
+secondDiv.style.display='flex'
+
+   setImg(b7)
+   
+  }
+
+
+      function fun8() {
+let secondDiv =document.querySelector('#secondDiv')
+secondDiv.style.display='flex'
+
+   setImg(b8)
+   
+  }
+
+
+      function fun9() {
+let secondDiv =document.querySelector('#secondDiv')
+secondDiv.style.display='flex'
+
+   setImg(b9)
+   
+  }
+
+
+      function fun10() {
+let secondDiv =document.querySelector('#secondDiv')
+secondDiv.style.display='flex'
+
+   setImg(b10)
+   
+  }
+
+
+      function fun11() {
+let secondDiv =document.querySelector('#secondDiv')
+secondDiv.style.display='flex'
+
+   setImg(b11)
+   
+  }
+
+
+      function fun12() {
+let secondDiv =document.querySelector('#secondDiv')
+secondDiv.style.display='flex'
+
+   setImg(b12)
+   
+  }
 
 
 
+  function fun17() {
+let secondDiv =document.querySelector('#secondDiv')
+secondDiv.style.display='flex'
+
+   setImg(b17)
+   
+  }
 
 
 
+ function closeCross(){
+ let secondDiv =document.querySelector('#secondDiv')
+secondDiv.style.display='none'
 
-
-
-
-
-
-
-
+ }
 
   return (
    <div id='galerija'>
@@ -211,23 +215,32 @@ function Galerija() {
     
          <div className={galerijaStyles.firstDiv}>
 
-            <img src={b17} className={galerijaStyles.secondDivItems} alt="freeDom Bike" onClick={i17} onMouseOver={umanjiItem} onMouseOut={uvecajItem} />
-             <img src={b2} className={galerijaStyles.secondDivItems} alt="freeDom Bike" onClick={i2} onMouseOver={umanjiItem} onMouseOut={uvecajItem}/>
-             <img src={b3} className={galerijaStyles.secondDivItems} alt="freeDom Bike" onClick={i3} onMouseOver={umanjiItem} onMouseOut={uvecajItem} />
-             <img src={b4} className={galerijaStyles.secondDivItems} alt="freeDom Bike" onClick={i4} onMouseOver={umanjiItem} onMouseOut={uvecajItem}/>
+            <img src={b17} onClick={fun17} className={galerijaStyles.secondDivItems} alt="freeDom Bike"  onMouseOver={umanjiItem} onMouseOut={uvecajItem} />
+             <img src={b2} onClick={fun2} className={galerijaStyles.secondDivItems} alt="freeDom Bike"  onMouseOver={umanjiItem} onMouseOut={uvecajItem}/>
+             <img src={b3} onClick={fun3} className={galerijaStyles.secondDivItems} alt="freeDom Bike"  onMouseOver={umanjiItem} onMouseOut={uvecajItem} />
+             <img src={b4} onClick={fun4} className={galerijaStyles.secondDivItems} alt="freeDom Bike"  onMouseOver={umanjiItem} onMouseOut={uvecajItem}/>
 
 
-             <img src={b5} className={galerijaStyles.secondDivItems} alt="freeDom Bike" onClick={i5} onMouseOver={umanjiItem} onMouseOut={uvecajItem}/>
-             <img src={b6} className={galerijaStyles.secondDivItems} alt="freeDom Bike" onClick={i6} onMouseOver={umanjiItem} onMouseOut={uvecajItem}/>
-             <img src={b7} className={galerijaStyles.secondDivItems} alt="freeDom Bike" onClick={i7} onMouseOver={umanjiItem} onMouseOut={uvecajItem}/>
-             <img src={b8} className={galerijaStyles.secondDivItems} alt="freeDom Bike" onClick={i8} onMouseOver={umanjiItem} onMouseOut={uvecajItem} />
+             <img src={b5} onClick={fun5} className={galerijaStyles.secondDivItems} alt="freeDom Bike"  onMouseOver={umanjiItem} onMouseOut={uvecajItem}/>
+             <img src={b6} onClick={fun6} className={galerijaStyles.secondDivItems} alt="freeDom Bike"  onMouseOver={umanjiItem} onMouseOut={uvecajItem}/>
+             <img src={b7} onClick={fun7} className={galerijaStyles.secondDivItems} alt="freeDom Bike"  onMouseOver={umanjiItem} onMouseOut={uvecajItem}/>
+             <img src={b8} onClick={fun8} className={galerijaStyles.secondDivItems} alt="freeDom Bike"  onMouseOver={umanjiItem} onMouseOut={uvecajItem} />
 
 
 
-             <img src={b9} className={galerijaStyles.secondDivItems} alt="freeDom Bike" onClick={i9} onMouseOver={umanjiItem} onMouseOut={uvecajItem} />
-             <img src={b10} className={galerijaStyles.secondDivItems} alt="freeDom Bike" onClick={i10} onMouseOver={umanjiItem} onMouseOut={uvecajItem} />
-             <img src={b11} className={galerijaStyles.secondDivItems} alt="freeDom Bike" onClick={i11} onMouseOver={umanjiItem} onMouseOut={uvecajItem} />
-             <img src={b12} className={galerijaStyles.secondDivItems} alt="freeDom Bike" onClick={i12} onMouseOver={umanjiItem} onMouseOut={uvecajItem} />
+             <img src={b9} onClick={fun9} className={galerijaStyles.secondDivItems} alt="freeDom Bike"  onMouseOver={umanjiItem} onMouseOut={uvecajItem} />
+             <img src={b10} onClick={fun10} className={galerijaStyles.secondDivItems} alt="freeDom Bike"  onMouseOver={umanjiItem} onMouseOut={uvecajItem} />
+             <img src={b11} onClick={fun11} className={galerijaStyles.secondDivItems} alt="freeDom Bike"  onMouseOver={umanjiItem} onMouseOut={uvecajItem} />
+             <img src={b12} onClick={fun12} className={galerijaStyles.secondDivItems} alt="freeDom Bike"  onMouseOver={umanjiItem} onMouseOut={uvecajItem} />
+
+ </div>
+
+
+ <div className={galerijaStyles.secondDiv} style={{background:back,color:txt}} id='secondDiv'>
+
+       <a href="#galerija"><ImCross onClick={closeCross} style={{color:txt}}/></a> 
+
+       <img src={img} alt="" />
 
  </div>
 

@@ -38,9 +38,7 @@ function App() {
 
 
     <div>
-      {laz ?
 
-       <div >
         
  
       <Navic />
@@ -62,16 +60,9 @@ function App() {
 
 
 
-      </div>
 
-      : 
-     
-      ''
-      
-      
 
-      }
-
+ 
 
     </div>
   )
