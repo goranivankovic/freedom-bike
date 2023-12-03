@@ -173,7 +173,7 @@
             font-size: .85rem;
     
     
-    
+  
 
     
     
@@ -183,7 +183,7 @@
             padding: 1em;
             text-decoration: none;
             border: none;
-            min-width: 10rem;
+            width: 9.5rem;
             background: transparent;
             font-weight: 500;
             display: flex;
@@ -192,6 +192,7 @@
             font-weight: 450;
             border-radius: .6em;
             margin-bottom: 1.5em;
+         
     
         }
 }

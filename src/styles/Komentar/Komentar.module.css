@@ -169,7 +169,7 @@ animation: slider 20s ease infinite;
 
         margin-left: 2em;
         box-shadow: 1px 1px 10px 1px var(--grey);
-        animation: slider 20s ease infinite;
+        animation: slider 28s ease infinite;
 
 
     }
@@ -213,7 +213,7 @@ animation: slider 20s ease infinite;
 
     .coomentDivItems {
         color: var(--grey);
-        font-size: .85rem;
+        font-size: .75rem;
         border-radius: 1em;
         min-height: 10rem;
         min-width: 20rem;
@@ -224,13 +224,14 @@ animation: slider 20s ease infinite;
 
         margin-left: 2em;
         box-shadow: 1px 1px 10px 1px var(--grey);
-        animation: slider 20s ease infinite;
+        animation: slider 35s ease infinite;
 
 
     }
 
     .coomentDivItems div {
         padding: .6em;
+        font-size: .75rem;
     }
 
     .iconsColor {
