@@ -25,9 +25,7 @@ function Putovanja() {
   return (
     <div id='putuj'>
 
-
-
-        <div className={putujStyles.main}>
+   <div className={putujStyles.main}>
 
 
          {/* Image 1  Row1*/}
@@ -71,6 +69,8 @@ function Putovanja() {
 
 
         </div>
+
+
 
 
     </div>

@@ -1,13 +1,15 @@
 
 .main {
-    margin-top: 4em;
-    margin-bottom: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+
+  
 
 
 }
@@ -73,3 +75,165 @@ animation: slider 20s ease infinite;
     }
 
 } 
+
+
+
+@media (max-width:70rem){
+.coomentDiv {
+
+        max-width: 50rem;
+        padding: 1em;
+
+
+
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        /* border: 2px solid red; */
+
+    }
+
+
+
+    .coomentDivItems {
+        color: var(--grey);
+        font-size: .85rem;
+        border-radius: 1em;
+        min-height: 10rem;
+        min-width: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        margin-left: 2em;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+        animation: slider 20s ease infinite;
+
+
+    }
+
+    .coomentDivItems div {
+        padding: .6em;
+    }
+
+    .iconsColor {
+        color: var(--orange);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:50rem) {
+    .coomentDiv {
+
+        max-width: 40rem;
+        padding: 1em;
+
+
+
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        /* border: 2px solid red; */
+
+    }
+
+
+
+    .coomentDivItems {
+        color: var(--grey);
+        font-size: .85rem;
+        border-radius: 1em;
+        min-height: 10rem;
+        min-width: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        margin-left: 2em;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+        animation: slider 20s ease infinite;
+
+
+    }
+
+    .coomentDivItems div {
+        padding: .6em;
+    }
+
+    .iconsColor {
+        color: var(--orange);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:40rem) {
+    .coomentDiv {
+
+        max-width: 90%;
+        padding: 1em;
+
+
+
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        /* border: 2px solid red; */
+
+    }
+
+
+
+    .coomentDivItems {
+        color: var(--grey);
+        font-size: .85rem;
+        border-radius: 1em;
+        min-height: 10rem;
+        min-width: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        margin-left: 2em;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+        animation: slider 20s ease infinite;
+
+
+    }
+
+    .coomentDivItems div {
+        padding: .6em;
+    }
+
+    .iconsColor {
+        color: var(--orange);
+    }
+}

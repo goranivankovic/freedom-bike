@@ -125,7 +125,7 @@
 
 .threedDivItems div{
     padding: .7em;
-    font-size: .85rem;
+    font-size: .8rem;
 }
 
 .threedDivItems:hover{
@@ -198,7 +198,7 @@
 
 .threedDivItems2 div {
     padding: .7em;
-    font-size: .85rem;
+    font-size: .8rem;
 }
 
 
@@ -253,7 +253,7 @@
 
 .threedDivItems3 div {
     padding: .7em;
-    font-size: .85rem;
+    font-size: .8rem;
 }
 
 
@@ -308,7 +308,7 @@
 
 .threedDivItems4 div {
     padding: .7em;
-    font-size: .85rem;
+    font-size: .8rem;
 }
 
 
@@ -324,6 +324,821 @@
     border-top-right-radius: .6em;
     border-top-left-radius: .6em;
     border: none;
+
+
+
+}
+
+
+
+@media (max-width:70rem){
+.threedDiv {
+        max-width: 60rem;
+
+
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-bottom: 1em;
+
+  
+
+    }
+
+
+  
+}
+
+
+
+
+
+
+
+@media (max-width:60rem) {
+.prazanDiv {
+        width: 60%;
+        padding: 1em;
+    }
+
+    .headline {
+        min-width: 50%;
+        padding: 2em;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+
+    .secondDiv {
+        max-width: 50rem;
+        padding: .5em;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1em;
+
+
+
+    }
+
+
+    .secondDivItem1 {
+
+        min-width: 48%;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: .9rem;
+
+
+
+
+
+    }
+
+    .secondDivItem1 div {
+        padding: 1em;
+    }
+
+
+
+
+
+
+    .secondDivItem2 {
+        min-height: 22rem;
+        min-width: 48%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url('../../img/b8.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+
+
+    }
+
+
+
+    .threedDiv {
+        max-width: 40rem;
+
+
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-bottom: 1em;
+
+
+
+    }
+
+
+    .threedDivItems {
+
+        min-height: 25rem;
+
+        border-radius: .6em;
+
+
+        width: 44%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+        /* border: 1px solid green; */
+
+
+    }
+
+        .threedDivItems2 {
+    
+            min-height: 25rem;
+    
+            border-radius: .6em;
+    
+    
+            width: 44%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 1px 1px 10px 1px var(--grey);
+    
+            margin-bottom: 1em;
+    
+            /* border: 1px solid green; */
+    
+    
+        }
+
+         .threedDivItems3 {
+    
+             min-height: 25rem;
+    
+             border-radius: .6em;
+    
+    
+             width: 44%;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: space-between;
+             box-shadow: 1px 1px 10px 1px var(--grey);
+    
+             margin-bottom: 1em;
+    
+             /* border: 1px solid green; */
+    
+    
+         }
+
+  .threedDivItems4 {
+
+      min-height: 25rem;
+
+      border-radius: .6em;
+
+
+      width: 44%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 1px 1px 10px 1px var(--grey);
+
+      margin-bottom: 1em;
+
+      /* border: 1px solid green; */
+
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:50rem) {
+    .prazanDiv {
+        width: 60%;
+        padding: 1em;
+    }
+
+    .headline {
+        min-width: 50%;
+        padding: 2em;
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+
+    .secondDiv {
+        max-width: 40rem;
+        padding: .5em;
+    
+
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1em;
+
+
+
+    }
+
+
+    .secondDivItem1 {
+
+        min-width: 30rem;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: .9rem;
+
+
+
+
+
+    }
+
+    .secondDivItem1 div {
+        padding: 1em;
+    }
+
+
+
+
+
+
+    .secondDivItem2 {
+        min-height: 25rem;
+        min-width: 30rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url('../../img/b8.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+
+
+    }
+
+
+
+    .threedDiv {
+        max-width: 95%;
+        
+
+
+
+        display: flex;
+        
+        align-items: center;
+        justify-content: space-around;
+
+        margin-bottom: 1em;
+
+
+
+    }
+
+
+    .threedDivItems {
+
+        min-height: 25rem;
+
+        border-radius: .6em;
+
+
+       min-width: 18rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+        /* border: 1px solid green; */
+
+
+    }
+
+    .threedDivItems2 {
+
+        min-height: 25rem;
+
+        border-radius: .6em;
+
+
+    min-width: 18rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+        /* border: 1px solid green; */
+
+
+    }
+
+    .threedDivItems3 {
+
+        min-height: 25rem;
+
+        border-radius: .6em;
+
+
+    min-width: 18rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+        /* border: 1px solid green; */
+
+
+    }
+
+    .threedDivItems4 {
+
+        min-height: 25rem;
+
+        border-radius: .6em;
+
+
+    min-width: 18rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+        /* border: 1px solid green; */
+
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:40rem) {
+    .prazanDiv {
+        width: 60%;
+        padding: 1em;
+    }
+
+    .headline {
+        min-width: 50%;
+        padding: 2em;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+
+    .secondDiv {
+        max-width: 95%;
+        padding: .2em;
+
+
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1em;
+
+
+
+    }
+
+
+    .secondDivItem1 {
+
+        min-width: 90%;
+        padding: .5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: .9rem;
+
+
+
+
+
+    }
+
+    .secondDivItem1 div {
+        padding: 1em;
+    }
+
+
+
+
+
+
+    .secondDivItem2 {
+        min-height: 25rem;
+        min-width: 90%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url('../../img/b8.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+
+
+    }
+
+
+
+    .threedDiv {
+        max-width: 30rem;
+
+
+
+
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 1em;
+
+
+
+    }
+
+
+    .threedDivItems {
+
+        min-height: 25rem;
+
+        border-radius: .6em;
+
+
+        min-width: 19rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+        /* border: 1px solid green; */
+
+
+    }
+
+    .threedDivItems2 {
+
+        min-height: 25rem;
+
+        border-radius: .6em;
+
+
+        min-width: 19rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+        /* border: 1px solid green; */
+
+
+    }
+
+    .threedDivItems3 {
+
+        min-height: 25rem;
+
+        border-radius: .6em;
+
+
+        min-width: 19rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+        /* border: 1px solid green; */
+
+
+    }
+
+    .threedDivItems4 {
+
+        min-height: 25rem;
+
+        border-radius: .6em;
+
+
+        min-width: 19rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+        /* border: 1px solid green; */
+
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:30rem) {
+    .prazanDiv {
+        width: 60%;
+        padding: 1em;
+    }
+
+    .headline {
+        min-width: 50%;
+        padding: 2em;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+
+    .secondDiv {
+        max-width: 95%;
+        padding: .2em;
+
+
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1em;
+
+
+
+    }
+
+
+    .secondDivItem1 {
+
+        min-width: 90%;
+        padding: .5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        font-size: .9rem;
+
+
+
+
+
+    }
+
+    .secondDivItem1 div {
+        padding: 1em;
+    }
+
+
+
+
+
+
+    .secondDivItem2 {
+        min-height: 25rem;
+        min-width: 90%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url('../../img/b8.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+
+
+    }
+
+
+
+    .threedDiv {
+        max-width: 90%;
+
+
+
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 1em;
+
+
+
+    }
+
+
+    .threedDivItems {
+
+        min-height: 25rem;
+
+        border-radius: .6em;
+
+
+        min-width: 19rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+        /* border: 1px solid green; */
+
+
+    }
+
+    .threedDivItems2 {
+
+        min-height: 25rem;
+
+        border-radius: .6em;
+
+
+        min-width: 19rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+        /* border: 1px solid green; */
+
+
+    }
+
+    .threedDivItems3 {
+
+        min-height: 25rem;
+
+        border-radius: .6em;
+
+
+        min-width: 19rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+        /* border: 1px solid green; */
+
+
+    }
+
+    .threedDivItems4 {
+
+        min-height: 25rem;
+
+        border-radius: .6em;
+
+
+        min-width: 19rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+        /* border: 1px solid green; */
+
+
+    }
+
 
 
 

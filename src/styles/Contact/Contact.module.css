@@ -54,24 +54,331 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
  
     max-width: 30rem;
-    border-radius: .7em;
+    border-radius: .6em;
+   
     
 }
 
-.formInput  span:nth-child(1){
- padding:.4em;
-
-}
-
 .formInput  span:nth-child(2){
-padding: .4em;
-font-size: .9rem;
+    min-width:8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ padding:.7em;
+background-color: yellowgreen;
 
+border-top-right-radius: .6em;
+    border-bottom-right-radius: .6em;
+}
+
+
+
+
+
+
+
+input[type="email"] {
+    width:22rem;
+    padding: .8em;
+    border-top-left-radius: .6em;
+    border-bottom-left-radius: .6em;
+    padding-left: 2em;
+
+    font-size: .9rem;
+    border: none;
 
 }
 
 
 
 
+
+
+
+@media (max-width:60rem){
+.imageDiv {
+        min-height: 30rem;
+        min-width: 39%;
+        background-image: url('../../img/tips.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .formDiv {
+
+        padding: 1em;
+        min-height: 30rem;
+        min-width: 59%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .formDiv div {
+        padding: .5em;
+
+    }
+
+    .formDivHeadline {
+        margin-left: -.5em;
+        font-size: 1.4rem;
+    }
+
+    .formInput {
+        margin-left: .5em;
+        margin-top: 2.5em;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        max-width: 30rem;
+        border-radius: .6em;
+
+
+    }
+
+    .formInput span:nth-child(2) {
+        min-width: 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: .7em;
+        background-color: yellowgreen;
+
+        border-top-right-radius: .6em;
+        border-bottom-right-radius: .6em;
+    }
+
+
+
+
+
+
+
+    input[type="email"] {
+        width: 22rem;
+        padding: .8em;
+        border-top-left-radius: .6em;
+        border-bottom-left-radius: .6em;
+        padding-left: 2em;
+
+        font-size: .9rem;
+        border: none;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:50rem) {
+.main {
+
+        margin-top: 3em;
+        margin-bottom: 3em;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        /* border: 2px solid red; */
+
+    }
+
+    .imageDiv {
+        min-height: 25rem;
+        min-width: 100%;
+        background-image: url('../../img/tips.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .formDiv {
+
+        padding: 1em;
+        padding-left: 2em;
+        min-height: 25rem;
+        min-width: 100%;
+        display: flex;
+     
+        
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .formDiv div {
+        padding: .5em;
+
+    }
+
+    .formDivHeadline {
+        margin-left: -.5em;
+        font-size: 1.25rem;
+    }
+
+    .formInput {
+        margin-left: .2em;
+        margin-top: 2.5em;
+        font-size: .95rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        max-width: 30rem;
+        border-radius: .6em;
+
+
+    }
+
+    .formInput span:nth-child(2) {
+        min-width: 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: .7em;
+        background-color: yellowgreen;
+
+        border-top-right-radius: .6em;
+        border-bottom-right-radius: .6em;
+    }
+
+
+
+
+
+
+
+    input[type="email"] {
+        width: 22rem;
+        padding: .8em;
+        border-top-left-radius: .6em;
+        border-bottom-left-radius: .6em;
+        padding-left: 2em;
+
+        font-size: .85rem;
+        border: none;
+
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:31rem) {
+    .main {
+
+        margin-top: 2em;
+        margin-bottom: 2em;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        /* border: 2px solid red; */
+
+    }
+
+    .imageDiv {
+        min-height: 25rem;
+        min-width: 100%;
+        background-image: url('../../img/tips.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .formDiv {
+
+        padding: 1em;
+        min-height: 25rem;
+        min-width: 90%;
+        display: flex;
+        padding-left: 2em;
+     
+
+
+        flex-direction: column;
+        
+
+    }
+
+    .formDiv div {
+        padding: .45em;
+
+    }
+
+    .formDivHeadline {
+        margin-left: -.5em;
+        font-size: 1.1rem;
+    }
+
+    .formInput {
+        margin-left: .2em;
+        margin-top: 2.5em;
+        font-size: .85rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+
+        max-width: 95%;
+        border-radius: .6em;
+
+
+    }
+
+    .formInput span:nth-child(2) {
+        min-width: 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: .75em;
+        background-color: yellowgreen;
+
+        border-radius: .6em;
+     
+    }
+
+
+
+
+
+
+
+    input[type="email"] {
+        width: 100%;
+        padding: .7em;
+       border-radius: .6em;;
+        padding-left: 2em;
+
+        font-size: .85rem;
+        border: none;
+        margin-bottom: 1em;
+
+    }
+}

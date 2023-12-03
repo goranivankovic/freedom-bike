@@ -2,7 +2,7 @@
 
 .main {
     margin-top: 2em;
-    margin-bottom: 3em;
+
     width: 100%;
     display: flex;
  flex-direction: column;
@@ -15,7 +15,7 @@
 
 .firstDiv{
     padding: 1em;
-    min-width: 70rem;
+    min-width: 75rem;
     font-size: 1.1rem;
     display: flex;
     justify-content: space-between;
@@ -27,14 +27,15 @@
 .firstDiv a{
     padding: .6em;
     text-decoration: none;
-    color: blue;
+
+
 }
 
 
 
 .secondDiv {
     padding: 1em;
-    min-width: 70rem;
+    min-width: 75rem;
     font-size: 1.1rem;
     display: flex;
     flex-wrap: wrap;
@@ -57,4 +58,319 @@
 
 .secondDivItems div{
     padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:75rem){
+.main {
+        margin-top: 2em;
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: space-around;
+        padding: 1em;
+
+    }
+
+    .firstDiv {
+        padding: 1em;
+        min-width: 60rem;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between;
+
+        /* border: 2px solid red; */
+
+    }
+
+    .firstDiv a {
+        padding: .6em;
+        text-decoration: none;
+      
+    }
+
+
+
+    .secondDiv {
+        padding: 1em;
+        min-width: 60rem;
+        font-size: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: space-between;
+
+        border-top: .2em solid var(--grey);
+
+        /* border: 2px solid red; */
+
+    }
+
+
+    .secondDivItems {
+        min-width: 13rem;
+
+
+        /* background-color: gold; */
+
+
+    }
+
+    .secondDivItems div {
+        padding: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:60rem) {
+    .main {
+        margin-top: 2em;
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: space-around;
+        padding: 1em;
+
+    }
+
+    .firstDiv {
+        padding: 1em;
+        min-width: 50rem;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between;
+
+        /* border: 2px solid red; */
+
+    }
+
+    .firstDiv a {
+        padding: .6em;
+        text-decoration: none;
+ 
+
+    }
+
+
+
+    .secondDiv {
+        padding: 1em;
+        min-width: 50rem;
+        font-size: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+      
+
+        justify-content: space-between;
+
+        border-top: .2em solid var(--grey);
+
+        /* border: 2px solid red; */
+
+    }
+
+
+    .secondDivItems {
+        min-width: 8rem;
+
+
+        /* background-color: gold; */
+
+
+    }
+
+    .secondDivItems div {
+        padding: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:50rem) {
+    .main {
+        margin-top: 2em;
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: space-around;
+        padding: 1em;
+
+    }
+
+    .firstDiv {
+        padding: 1em;
+        min-width: 40rem;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between;
+
+        /* border: 2px solid red; */
+
+    }
+
+    .firstDiv a {
+        padding: .6em;
+        text-decoration: none;
+  
+
+    }
+
+
+
+    .secondDiv {
+        padding: 1em;
+        min-width: 40rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+        justify-content: space-between;
+
+        border-top: .2em solid var(--grey);
+
+        /* border: 2px solid red; */
+
+    }
+
+
+    .secondDivItems {
+        min-width: 17rem;
+
+
+        /* background-color: gold; */
+
+
+    }
+
+    .secondDivItems div {
+        padding: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:40rem) {
+    .main {
+        margin-top: 2em;
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: space-around;
+        padding: 1em;
+
+    }
+
+    .firstDiv {
+        padding: .5em;
+        min-width: 90%;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between;
+
+        /* border: 2px solid red; */
+
+    }
+
+    .firstDiv a {
+        padding: .6em;
+        text-decoration: none;
+    
+    }
+
+
+
+    .secondDiv {
+        padding: 1em;
+        min-width: 90%;
+        font-size: .9rem;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+        justify-content: space-between;
+
+        border-top: .2em solid var(--grey);
+
+        /* border: 2px solid red; */
+
+    }
+
+
+    .secondDivItems {
+        min-width: 95%;
+
+
+        /* background-color: gold; */
+
+
+    }
+
+    .secondDivItems div {
+        padding: 1em;
+    }
 }

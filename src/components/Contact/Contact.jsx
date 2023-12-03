@@ -22,7 +22,12 @@ function Contact() {
                  <div>Budite u toku sa uzbudljivim savetima, korisnim</div>
                  <div>uputstvima i vestima!</div>
 
-                 <div className={contactStyles.formInput} style={{border:`.1em solid ${back}`}}> <span>Email</span> <span style={{background:back,color:txt}}>Subscribe</span> </div>
+                
+
+                 
+
+
+                  <div className={contactStyles.formInput}> <input type="email" placeholder='Email' style={{border:`.1em solid ${back}`}}/> <span style={{background:txt,color:back,border:`.1em solid ${back}`}}>Subscribe</span> </div>
              
             </div>
 

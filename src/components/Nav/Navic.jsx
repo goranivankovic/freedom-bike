@@ -1,16 +1,17 @@
 
 
 import navicStyles from '../../styles/Nav/Navic.module.css'
-import {GoThreeBars} from 'react-icons/go'
 
-import{ImCross} from 'react-icons/im'
 
+import { HiOutlineSun ,HiMoon } from 'react-icons/hi'
+
+import { lightMode,darkMode} from '../../Redux/colorReducer'
 
 
 
 import React from 'react'
 import { useState,useEffect ,useRef} from 'react'
-import { useSelector } from 'react-redux'
+import { useSelector ,useDispatch  } from 'react-redux'
 
 function Navic() {
  const back = useSelector((state) => state.color.back)
@@ -22,6 +23,8 @@ function Navic() {
 
   const[ar,setAr]=useState({})
    const[laz,setlaz]=useState(true)
+
+    const dispatch = useDispatch()
   
   useEffect(() => {
     
@@ -33,9 +36,70 @@ function Navic() {
 
   function da() {
 
+if (laz) {
+  
+   let line1 = document.querySelector('.line1')
+   line1.style.transition='1000ms'
+   line1.style.transformOrigin='top'
+   line1.style.transform='rotate(45deg)'
+   
+
+
+
+
+      let line3 = document.querySelector('.line3')
+   line3.style.transition='1000ms'
+   line3.style.transformOrigin='bottom'
+   line3.style.transform='rotate(-45deg)'
+
+
+   
+let menuBarItems =document.querySelector('#menuBarItems')
+menuBarItems.style.transition='1200ms'
+menuBarItems.style.display='flex'
+
+
+
+      setlaz(!laz)
+
+}else{
+   let line1 = document.querySelector('.line1')
+   line1.style.transition='650ms'
+   line1.style.transformOrigin='top'
+   line1.style.transform='rotate(0deg)'
+   
+
+
+
+
+      let line3 = document.querySelector('.line3')
+   line3.style.transition='650ms'
+   line3.style.transformOrigin='bottom'
+   line3.style.transform='rotate(0deg)'
+
+
+
+let menuBarItems =document.querySelector('#menuBarItems')
+menuBarItems.style.transition='1200ms'
+menuBarItems.style.display='none'
+
+
+
+
+
+      setlaz(!laz)
+
+
+
+
+
+}
+
+
+
 
     
-    setlaz(!laz)
+ 
 
     
 
@@ -52,14 +116,14 @@ function Navic() {
 
 
 
-<div>
+<div style={{background:back,color:txt}}>
 
 
-<svg width="132" onClick={da} className={navicStyles.navbar} id='bars'  height="50" viewBox="0 0 132 50" fill="none"  xmlns="http://www.w3.org/2000/svg">
+<svg width="132" onClick={da} className={navicStyles.navbar} id='bars'  height="55" viewBox="0 0 132 50" fill="none"  xmlns="http://www.w3.org/2000/svg">
        <g id="navbar" >
-        <line  className={laz ?  "line1" : "Line1"}  x1="37" y1="11.5" x2="87" y2="11.5" stroke={grey} strokeWidth="5"/>
-       <line className={laz ?  "line3" : "Line3"}  x1="37" y1="33.5" x2="87" y2="33.5" stroke={grey} strokeWidth="5"/>
-       <line className={laz ?  "line2" : "Line2"}  x1="66" y1="22.5" x2="116" y2="22.5" stroke={grey} strokeWidth="5"/>
+        <line className='line1'   x1="37" y1="11.5" x2="87" y2="11.5" stroke={grey} strokeWidth="5"/>
+       <line className='line3'  x1="37" y1="33.5" x2="87" y2="33.5" stroke={grey} strokeWidth="5"/>
+       <line   x1="66" y1="22.5" x2="116" y2="22.5" stroke={grey} strokeWidth="5"/>
        </g>
 </svg>
 
@@ -84,12 +148,29 @@ function Navic() {
 <a href="#galerija"><circle id="Ellipse 6" cx="54" cy="530" r="10" fill={grey}/></a>
 <a href="#komentari"> <circle id="Ellipse 7" cx="54" cy="578" r="10" fill={grey}/></a>
 <a href="#contact"><circle id="Ellipse 8" cx="54" cy="622" r="10" fill={grey}/></a>
-<a href="#footer"><circle id="Ellipse 9" cx="54" cy="666" r="10" fill={grey}/></a>
+<a href="#info"><circle id="Ellipse 9" cx="54" cy="666" r="10" fill={grey}/></a>
 </g>
 </svg>
 
 
 
+
+
+      <div className={navicStyles.menuBarItems} id='menuBarItems' style={{background:back,color:txt}}>
+
+          <a href="#pocetna" style={{background:back,color:txt}} onClick={da}>Početna</a>
+           <a href="#kupi" style={{background:back,color:txt}} onClick={da}>Kupi</a>
+           <a href="#putuj" style={{background:back,color:txt}} onClick={da}>Putuj</a>
+           <a href="#onama" style={{background:back,color:txt}} onClick={da}>O nama</a>
+            <a href="#galerija" style={{background:back,color:txt}} onClick={da}>Galerija</a>
+           <a href="#komentari" style={{background:back,color:txt}} onClick={da}>Komentari</a>
+           <a href="#contact" style={{background:back,color:txt}} onClick={da}>Kontakt</a>
+           <a href="#info" style={{background:back,color:txt}} onClick={da}>Info</a>
+           <div><HiOutlineSun onClick={()=>dispatch(lightMode())} /> / <HiMoon onClick={()=>dispatch(darkMode())} /></div>
+
+
+
+      </div>
 
   
 

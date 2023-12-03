@@ -16,12 +16,12 @@ function Komentar() {
   return (
 
 
-   <div className={kupiStyles.main} style={{background:back,color:txt}} id='komentari'>
+   <div className={kupiStyles.main}  id='komentari'>
 
 
-         <div className={kupiStyles.coomentDiv}>
+         <div className={kupiStyles.coomentDiv} >
 
-               <div className={kupiStyles.coomentDivItems}>
+               <div className={kupiStyles.coomentDivItems} style={{background:back,color:txt}}>
                 <div><FaStar className={kupiStyles.iconsColor}/> <FaStar className={kupiStyles.iconsColor}/>  <FaStar className={kupiStyles.iconsColor} />  <FaStar className={kupiStyles.iconsColor} />  <FaRegStar className={kupiStyles.iconsColor}/>  Pre Mesec Dana</div>
                 <div>Servis za bicikle, ujedno i prodajno mesto, u širem centru grada. Rad je kvalitetan, cene prihvatljive, a pri tome nema prevelikog čekanja.</div>
                 <div>Nikola M.</div>
@@ -29,7 +29,7 @@ function Komentar() {
 
 
 
-            <div className={kupiStyles.coomentDivItems}>
+            <div className={kupiStyles.coomentDivItems} style={{background:back,color:txt}}>
                 <div><FaStar className={kupiStyles.iconsColor}/> <FaStar className={kupiStyles.iconsColor}/>  <FaStar className={kupiStyles.iconsColor} />  <FaStar className={kupiStyles.iconsColor} />  <FaStar className={kupiStyles.iconsColor}/> Pre 2 Dana</div>
                 <div>Super je ovaj servis! Baš su brzi i nisu skupi naročito za komplet godišji servis. Sve pohvale!.</div>
                 <div>Sofija T.</div>
@@ -37,14 +37,14 @@ function Komentar() {
 
 
 
-         <div className={kupiStyles.coomentDivItems}>
+         <div className={kupiStyles.coomentDivItems} style={{background:back,color:txt}}>
                 <div><FaStar className={kupiStyles.iconsColor}/> <FaStar className={kupiStyles.iconsColor}/>  <FaStar className={kupiStyles.iconsColor} />  <FaRegStar className={kupiStyles.iconsColor} />  <FaRegStar className={kupiStyles.iconsColor}/> Pre 10 Dana</div>
                 <div>Super je ovaj servis! Baš su brzi i nisu skupi naročito za komplet godišji servis. Sve pohvale!.</div>
                 <div>Sofija T.</div>
               </div>    
 
 
-         <div className={kupiStyles.coomentDivItems}>
+         <div className={kupiStyles.coomentDivItems} style={{background:back,color:txt}}>
                 <div><FaStar className={kupiStyles.iconsColor}/> <FaStar className={kupiStyles.iconsColor}/>  <FaStar className={kupiStyles.iconsColor} />  <FaRegStar className={kupiStyles.iconsColor} />  <FaRegStar className={kupiStyles.iconsColor}/> Pre 15 Dana</div>
                 <div>Super je ovaj servis! Baš su brzi i nisu skupi naročito za komplet godišji servis. Sve pohvale!.</div>
                 <div>Sergej U.</div>
@@ -52,13 +52,13 @@ function Komentar() {
 
 
    
-            <div className={kupiStyles.coomentDivItems}>
+            <div className={kupiStyles.coomentDivItems} style={{background:back,color:txt}}>
                 <div><FaStar className={kupiStyles.iconsColor}/> <FaStar className={kupiStyles.iconsColor}/>  <FaStar className={kupiStyles.iconsColor} />  <FaStar className={kupiStyles.iconsColor} />  <FaStar className={kupiStyles.iconsColor}/> Pre 11 Dana</div>
                 <div>Sve pohvale za majstore. Baš su brzi i pedantni.</div>
                 <div>Mare S.</div>
               </div>    
         
-       <div className={kupiStyles.coomentDivItems}>
+       <div className={kupiStyles.coomentDivItems} style={{background:back,color:txt}}>
                 <div><FaStar className={kupiStyles.iconsColor}/> <FaStar className={kupiStyles.iconsColor}/>  <FaStar className={kupiStyles.iconsColor} />  <FaStar className={kupiStyles.iconsColor} />  <FaRegStar className={kupiStyles.iconsColor}/> Pre 6 Dana</div>
                 <div>Hvala puno na na pomoći brza i profesionalna usluga.</div>
                 <div>Marija G.</div>

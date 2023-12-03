@@ -12,7 +12,7 @@ function Footer() {
   const txt = useSelector((state) => state.color.txt)
   const grey = useSelector((state) => state.color.grey)  
   return (
-    <div id='footer'>
+    <div id='info'>
         
              <div className={footerStyles.main} style={{background:back,color:txt}}>
 

@@ -47,11 +47,12 @@ function App() {
       <Pocetna />
       <KakoUraditi />
       <Putovanja />
-      <Onama />
+       <Onama />
       <Galerija />
       <Komentar />
-      <Contact />
-      <Footer />
+    
+    <Contact /> 
+      <Footer />  
 
 
 

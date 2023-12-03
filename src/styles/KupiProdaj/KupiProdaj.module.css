@@ -14,7 +14,7 @@
 
 .firstDiv{
     padding: 1em;
-        width: 75%;
+        width: 65%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -176,6 +176,7 @@ box-shadow: 1px 1px 10px 1px var(--grey);
 
 
     /* background-color: red; */
+
 }
 
 .fiveDivItems div{
@@ -205,4 +206,910 @@ box-shadow: 1px 1px 10px 1px var(--grey);
 
     font-size: .85rem;
 
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:60rem) {
+.firstDiv {
+        padding: 1em;
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 2em;
+        margin-top: 2em;
+
+
+
+
+
+
+    }
+
+
+
+
+    .secondDiv {
+        padding: 1em;
+        min-width: 25rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: .9rem;
+
+
+
+   
+
+
+    }
+
+    .secondDiv div {
+        padding: .7em;
+        text-decoration: none;
+        border: none;
+        width: 150px;
+        background: transparent;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 450;
+        border-radius: .6em;
+
+    }
+
+    .secondDiv div:hover {
+        transition: 450ms;
+        transform: scale(.98);
+    }
+
+    .thrredDiv {
+        padding: 1em;
+        max-width: 50rem;
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2em;
+
+
+
+    }
+
+
+    .thrredDivItems {
+        min-height: 18rem;
+        width: 30%;
+        padding: .8em;
+        font-size: .9rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+        border-radius: .8em;
+
+
+
+    }
+
+    .thrredDivItems div:nth-child(1) {
+        padding: 1em 1em;
+        background-color: black;
+        color: white;
+
+
+        border-radius: 50%;
+
+    }
+
+
+
+
+
+
+    .fourDiv {
+        padding: 1em;
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 2em;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .fiveDiv {
+        padding: 1em;
+        max-width: 50rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        font-size: .9rem;
+        font-weight: bold;
+        margin-bottom: 2em;
+
+
+
+
+
+
+    }
+
+
+    .fiveDivItems {
+        padding: .5em;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: .6em;
+        margin-bottom: 1em;
+        font-size: .9rem;
+
+
+        /* background-color: red; */
+
+    }
+
+    .fiveDivItems div {
+        padding: 1em;
+
+
+    }
+
+    .fiveDivItems div:nth-child(1) {
+        width: 80%;
+
+    }
+
+    .fiveDivItems div:nth-child(2) {
+        width: 10%;
+        font-size: 1.4rem;
+    }
+
+
+
+    .fiveDivItems div:nth-child(3) {
+        width: 100%;
+        min-height: 12rem;
+        padding: 1em;
+        display: flex;
+        align-items: center;
+
+        font-size: .85rem;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:50rem) {
+    .firstDiv {
+        padding: 1em;
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-bottom: 2em;
+        margin-top: 2em;
+
+
+
+
+
+
+    }
+
+
+
+
+    .secondDiv {
+        padding: 1em;
+        min-width: 25rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: .9rem;
+
+
+
+
+
+
+    }
+
+    .secondDiv div {
+        padding: .7em;
+        text-decoration: none;
+        border: none;
+        width: 150px;
+        background: transparent;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 450;
+        border-radius: .6em;
+
+    }
+
+    .secondDiv div:hover {
+        transition: 450ms;
+        transform: scale(.98);
+    }
+
+    .thrredDiv {
+        padding: 1em;
+        max-width: 35rem;
+        display: flex;
+        flex-wrap: wrap;
+      
+       align-items: center;
+ 
+
+        justify-content: space-between;
+        margin-bottom: 2em;
+
+
+
+    }
+
+
+    .thrredDivItems {
+        min-height: 18rem;
+        width: 45%;
+        padding: .8em;
+        font-size: .85rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+        border-radius: .8em;
+
+       margin-bottom: 1em;
+
+    }
+
+    .thrredDivItems div:nth-child(1) {
+        padding: 1em 1em;
+        background-color: black;
+        color: white;
+
+
+        border-radius: 50%;
+
+    }
+
+
+
+
+
+
+    .fourDiv {
+        padding: 1em;
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 2em;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .fiveDiv {
+        padding: 1em;
+        max-width: 40rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        font-size: .9rem;
+        font-weight: bold;
+        margin-bottom: 2em;
+
+
+
+
+
+
+    }
+
+
+    .fiveDivItems {
+        padding: .5em;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: .6em;
+        margin-bottom: 1em;
+        font-size: .9rem;
+
+
+        /* background-color: red; */
+
+    }
+
+    .fiveDivItems div {
+        padding: 1em;
+
+
+    }
+
+    .fiveDivItems div:nth-child(1) {
+        width: 80%;
+
+    }
+
+    .fiveDivItems div:nth-child(2) {
+        width: 10%;
+        font-size: 1.2rem;
+    }
+
+
+
+    .fiveDivItems div:nth-child(3) {
+        width: 100%;
+        min-height: 12rem;
+        padding: 1em;
+        display: flex;
+        align-items: center;
+
+        font-size: .85rem;
+
+        /* background-color: red; */
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:40rem) {
+    .firstDiv {
+        padding: 1em;
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-bottom: 2em;
+        margin-top: 2em;
+
+
+
+
+
+
+    }
+
+
+
+
+    .secondDiv {
+        padding: 1em;
+        min-width: 25rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: .9rem;
+
+
+
+
+
+
+    }
+
+    .secondDiv div {
+        padding: .7em;
+        text-decoration: none;
+        border: none;
+        width: 9.5rem;
+        background: transparent;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 450;
+        border-radius: .6em;
+
+    }
+
+    .secondDiv div:hover {
+        transition: 450ms;
+        transform: scale(.98);
+    }
+
+    .thrredDiv {
+        padding: 1em;
+        max-width: 30rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        align-items: center;
+
+
+        justify-content: center;
+        margin-bottom: 2em;
+
+
+
+    }
+
+
+    .thrredDivItems {
+        min-height: 18rem;
+        min-width: 16rem;
+        padding: .8em;
+        font-size: .85rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+        border-radius: .8em;
+
+        margin-bottom: 1em;
+
+    }
+
+    .thrredDivItems div:nth-child(1) {
+        padding: 1em 1em;
+        background-color: black;
+        color: white;
+
+
+        border-radius: 50%;
+
+    }
+
+
+
+
+
+
+    .fourDiv {
+        padding: 1em;
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 2em;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .fiveDiv {
+        padding: .5em;
+        max-width: 30rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        font-size: .9rem;
+        font-weight: bold;
+        margin-bottom: 2em;
+
+
+
+
+
+
+    }
+
+
+    .fiveDivItems {
+        padding: .5em;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: .6em;
+        margin-bottom: 1em;
+        font-size: .9rem;
+
+
+        /* background-color: red; */
+
+    }
+
+    .fiveDivItems div {
+        padding: 1em;
+
+
+    }
+
+    .fiveDivItems div:nth-child(1) {
+        width: 90%;
+     
+
+    }
+
+    .fiveDivItems div:nth-child(2) {
+        width: 10%;
+        font-size: 1.1rem;
+    }
+
+
+
+    .fiveDivItems div:nth-child(3) {
+        width: 100%;
+        min-height: 12rem;
+        padding: 1em;
+        display: flex;
+        align-items: center;
+
+        font-size: .85rem;
+
+        /* background-color: red; */
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:30rem) {
+    .firstDiv {
+        padding: 1em;
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 2em;
+        margin-top: 2em;
+        text-align: center;
+
+
+
+
+
+
+    }
+
+
+
+
+    .secondDiv {
+        padding: 1em;
+        min-width: 95%;
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: .9rem;
+
+
+
+
+
+
+    }
+
+    .secondDiv div {
+        padding: .7em;
+        text-decoration: none;
+        border: none;
+        width: 9.5rem;
+        background: transparent;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 450;
+        border-radius: .6em;
+        margin-bottom: 1em;
+
+    }
+
+    .secondDiv div:hover {
+        transition: 450ms;
+        transform: scale(.98);
+    }
+
+    .thrredDiv {
+        padding: 1em;
+        max-width: 20rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        align-items: center;
+
+
+        justify-content: center;
+        margin-bottom: 2em;
+
+
+
+    }
+
+
+    .thrredDivItems {
+        min-height: 18rem;
+        min-width: 16rem;
+        padding: .8em;
+        font-size: .85rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+        border-radius: .8em;
+
+        margin-bottom: 1em;
+
+    }
+
+    .thrredDivItems div:nth-child(1) {
+        padding: 1em 1em;
+        background-color: black;
+        color: white;
+
+
+        border-radius: 50%;
+
+    }
+
+
+
+
+
+
+    .fourDiv {
+        padding: 1em;
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 2em;
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .fiveDiv {
+        padding: .5em;
+        max-width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        font-size: .9rem;
+        font-weight: bold;
+        margin-bottom: 2em;
+
+
+
+
+
+
+    }
+
+
+    .fiveDivItems {
+        padding: .5em;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: .6em;
+        margin-bottom: 1em;
+        font-size: .9rem;
+
+
+        /* background-color: red; */
+
+    }
+
+    .fiveDivItems div {
+        padding: .5em;
+
+
+    }
+
+    .fiveDivItems div:nth-child(1) {
+        width: 90%;
+
+
+    }
+
+    .fiveDivItems div:nth-child(2) {
+        width: 30%;
+        font-size: 1.1rem;
+    }
+
+
+
+    .fiveDivItems div:nth-child(3) {
+        width: 100%;
+        min-height: 12rem;
+        padding: 1em;
+        display: flex;
+        align-items: center;
+
+        font-size: .85rem;
+
+        /* background-color: red; */
+
+    }
+}
+
+
+
+
+
+@media (max-width:20rem) {
+.thrredDiv {
+        padding: 1em;
+        max-width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+
+        align-items: center;
+
+
+        justify-content: center;
+        margin-bottom: 2em;
+
+
+
+    }
+
+
+    .thrredDivItems {
+        min-height: 18rem;
+        width: 100%;
+        padding: .8em;
+        font-size: .85rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+        border-radius: .8em;
+
+        margin-bottom: 1em;
+
+    }
 }

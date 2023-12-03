@@ -1,12 +1,5 @@
-
-
-
-
-
-
-
 .main {
-  
+
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -18,15 +11,21 @@
 }
 
 
-.itemsFirstRow{
-  
+.itemsFirstRow {
+
     width: 30%;
+    height: 33rem;
+}
+
+.itemsSecondRow {
+
+    width: 45%;
     height: 33rem;
 }
 
 
 
- video {
+video {
 
 
     object-fit: cover;
@@ -43,8 +42,173 @@
 
 
 
-.itemsSecondRow {
 
-    width: 45%;
-    height: 33rem;
+
+
+
+
+
+
+
+@media (max-width:50rem){
+.main {
+
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+
+    .itemsFirstRow {
+
+        width: 50%;
+        height: 23rem;
+    }
+
+    .itemsSecondRow {
+
+        width: 50%;
+        height: 23rem;
+    }
+
+    .main :nth-child(2){
+        display: none;
+
+    }
+
+
+
+    video {
+
+
+        object-fit: cover;
+        width: 100%;
+        height: 23rem;
+
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:40rem) {
+    .main {
+
+        width: 100%;
+        display: flex;
+        
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+
+
+
+    }
+
+
+    .itemsFirstRow {
+
+        width: 90%;
+        height: 23rem;
+    }
+
+    .itemsSecondRow {
+
+        width: 90%;
+        height: 23rem;
+    }
+
+    .main :nth-child(2) {
+        display: none;
+
+    }
+
+
+
+    video {
+
+
+        object-fit: cover;
+        width: 100%;
+        height: 23rem;
+
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:30rem) {
+    .main {
+
+        width: 100%;
+        display: flex;
+
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+
+
+
+    }
+
+
+    .itemsFirstRow {
+
+        width: 100%;
+        height: 23rem;
+    }
+
+    .itemsSecondRow {
+
+        width: 100%;
+        height: 23rem;
+    }
+
+    .main :nth-child(2) {
+        display: none;
+
+    }
+
+
+
+    video {
+
+
+        object-fit: cover;
+        width: 100%;
+        height: 23rem;
+
+
+    }
+
 }
