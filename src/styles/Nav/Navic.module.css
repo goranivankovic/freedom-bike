@@ -81,7 +81,7 @@
 .navbar {
     position: fixed;
     top: 4%;
-    left: 2%;
+    left: 0%;
     cursor: pointer;
     z-index: 50;
 
@@ -161,7 +161,7 @@
   .navbar {
     position: fixed;
     top: 4%;
-    left: 2%;
+    left: 0%;
     cursor: pointer;
     z-index: 50;
 
