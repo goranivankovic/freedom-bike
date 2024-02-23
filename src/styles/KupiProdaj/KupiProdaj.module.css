@@ -2,7 +2,7 @@
 
 
 .main{
-    min-height: 100dvh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -66,6 +66,8 @@
 .secondDiv div:hover {
     transition: 450ms;
     transform: scale(.98);
+    color: var(--grey);
+
 }
 
 .thrredDiv{
@@ -100,13 +102,26 @@ box-shadow: 1px 1px 10px 1px var(--grey);
 }
 
 .thrredDivItems div:nth-child(1){
-    padding: 1em 1em;
+    padding: 1em;
+    height: 3rem;
+    width: 3rem;
     background-color: black;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     
     border-radius: 50%;
 
+}
+
+
+.thrredDivItems:hover{
+    transition: 500ms;
+    transform: rotate(4deg) translateX(2rem);
+  color: var(--grey);
+  
 }
 
 
@@ -970,6 +985,13 @@ box-shadow: 1px 1px 10px 1px var(--grey);
         border-radius: 50%;
 
     }
+
+
+        .thrredDivItems:hover {
+            transition: 500ms;
+            transform: rotate(0deg) translateX(0rem);
+            color: var(--grey);
+        }
 
 
 

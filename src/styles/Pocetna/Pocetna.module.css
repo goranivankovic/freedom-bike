@@ -22,9 +22,11 @@
     background-image: url('../../img/Home.png');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     color: white;
     font-weight: 450;
+
+    background-color: var(--grey);
 }
 
 
