@@ -106,12 +106,12 @@ function KakoUraditi() {
    {laz5 ?
 
 
-    <div className={kupiStyles.thrredDiv}>
+    <div className={kupiStyles.thrredDiv} >
 
       {/* Item 1 */}
        <div className={kupiStyles.thrredDivItems}>
 
-        <div style={{background:txt,color:back}}> 1 </div>
+        <div style={{border:`.1em solid ${txt}`}}> 1 </div>
 
         <div>Izaberite bicikl koji najbolje odgovara vama i vašim potrebama.</div>
       </div>
@@ -122,7 +122,7 @@ function KakoUraditi() {
          {/* Item 2 */}
        <div className={kupiStyles.thrredDivItems}>
 
-        <div style={{background:txt,color:back}}>2</div>
+        <div style={{border:`.1em solid ${txt}`}}>2</div>
 
         <div>Odaberite željeni način plaćanja. Možete lako pratiti proces isporuke na mreži.</div>
       </div>
@@ -133,7 +133,7 @@ function KakoUraditi() {
          {/* Item 3 */}
        <div className={kupiStyles.thrredDivItems}>
 
-        <div style={{background:txt,color:back}}>3</div>
+        <div style={{border:`.1em solid ${txt}`}}>3</div>
 
         <div>Kada dobijete svoj bicikl, ništa ne stoji na putu vašoj sledećoj biciklističkoj avanturi.</div>
       </div>
