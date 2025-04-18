@@ -135,7 +135,7 @@ menuBarItems.style.display='none'
 
 
 
-<svg className={navicStyles.circles} width="76" height="1080" viewBox="0 0 76 1080" fill='none' xmlns="http://www.w3.org/2000/svg">
+<svg className={navicStyles.circles}  viewBox="0 0 76 1080" fill='none' xmlns="http://www.w3.org/2000/svg">
 <g id="Frame 19">
 <line id="Line 4" x1="54.5" y1="1080" x2="54.5"  fill='#a6a6a6' stroke={grey} strokeWidth="5"/>
 

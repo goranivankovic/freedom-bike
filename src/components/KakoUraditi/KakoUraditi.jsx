@@ -206,7 +206,7 @@ function KakoUraditi() {
 
           {/* Item 1 */}
 
-          <div className={kupiStyles.fiveDivItems} style={{color:back,background:txt}}>
+          <div className={kupiStyles.fiveDivItems}  style={{color:back,background:txt}}>
            <div>Zasto je biciklizam dobar marketinski biznis?</div> {laz1 ? <div onClick={item1}>+</div> : <div onClick={item1}>-</div> }
  
              {!laz1  ? <div>U ciklusu kupovine korišćena kupovina se odvija kao u bilo kojoj normalnoj prodavnici na mreži. Mi brinemo o isporuci i kompletnoj obradi plaćanja. Ako nešto nije u redu sa biciklom, mi ćemo se pobrinuti za proces vraćanja za vas. Jednostavno nam vratite svoj bicikl i vratite novac.</div>
@@ -218,7 +218,7 @@ function KakoUraditi() {
 
 
           {/* Item 2 */}
-            <div className={kupiStyles.fiveDivItems} style={{color:back,background:txt}}>
+            <div className={kupiStyles.fiveDivItems}  style={{color:back,background:txt}}>
            <div>Dali je cena Fiksna?</div>  {laz2 ? <div onClick={item2}>+</div> : <div onClick={item2}>-</div> }
 
           {!laz2  ? <div>Prodavci mogu da odluče da li da ponude svoj bicikl po fiksnoj ceni ili po ceni po dogovoru. Ako se o ceni prodavca može pregovarati, vi kao kupac takođe možete napraviti kontraponudu ispod odgovarajućeg bicikla. Samo kliknite na pregovaraj o ceni i unesite svoju ponudu. Nakon toga, prodavac može prihvatiti vašu ponudu, odbiti je ili vam poslati svoju protivponudu.</div>
