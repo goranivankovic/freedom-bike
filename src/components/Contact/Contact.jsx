@@ -20,7 +20,7 @@ function Contact() {
                     <div>Zajednice</div>
                   </div>
                  <div>Budite u toku sa uzbudljivim savetima, korisnim</div>
-                 <div>uputstvima i vestima!</div>
+                 <div>freedombike2020@gmail.com</div>
 
                 
 

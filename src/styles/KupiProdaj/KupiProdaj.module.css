@@ -18,7 +18,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         font-weight: bold;
         margin-bottom: 2em;
         margin-top: 2em;
@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: .9rem;
+    font-size: 1.1rem;
 
 
 
@@ -79,7 +79,7 @@
         justify-content: space-between;
         margin-bottom: 2em;
     
-        /* border: 2px solid red; */
+
 
 }
 
@@ -87,8 +87,8 @@
 .thrredDivItems{
     min-height: 18rem;
    width: 28%;
-   padding: .8em;
-    font-size: .9rem;
+   padding: .5em;
+    font-size: 1.1rem;
 
     display: flex;
     flex-direction: column;
@@ -134,7 +134,7 @@ box-shadow: 1px 1px 10px 1px var(--grey);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
     margin-bottom: 2em;
 
@@ -165,7 +165,7 @@ box-shadow: 1px 1px 10px 1px var(--grey);
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    font-size: .9rem;
+    font-size: 1.1rem;
     font-weight: bold;
     margin-bottom: 2em;
 
@@ -186,10 +186,10 @@ box-shadow: 1px 1px 10px 1px var(--grey);
     align-items: center;
     border-radius: .6em;
     margin-bottom: 1em;
-    font-size: .9rem;
+    font-size: 1rem;
 
 
-    /* background-color: red; */
+
 
 }
 
@@ -207,6 +207,7 @@ box-shadow: 1px 1px 10px 1px var(--grey);
 .fiveDivItems div:nth-child(2){
     width: 10%;
     font-size: 1.4rem;
+   
 }
 
 
@@ -218,7 +219,7 @@ box-shadow: 1px 1px 10px 1px var(--grey);
     display: flex;
     align-items: center;
 
-    font-size: .85rem;
+    font-size: 1rem;
 
 }
 

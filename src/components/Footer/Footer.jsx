@@ -19,7 +19,7 @@ function Footer() {
               <div className={footerStyles.firstDiv}> freedomBike 
                    <div >
                     <a style={{background:back,color:txt}} href="https://www.facebook.com/" target="_blank"><FaFacebookF /> </a> 
-                    <a style={{background:back,color:txt}} href="https://www.instagram.com/" target="_blank"><FaInstagram /> </a>
+                    <a style={{background:back,color:txt}} href="https://www.instagram.com/freedombikeshop/" target="_blank"><FaInstagram /> </a>
                      <a style={{background:back,color:txt}} href="https://www.google.com/" target="_blank"><FaGoogle /> </a>
                   </div>
               </div>
@@ -41,8 +41,8 @@ function Footer() {
                 <div className={footerStyles.secondDivItems}>
                           <div>Prodaj</div>
                           <div>Prodaj bicikli</div>
-                          <div>FaQs</div>
-                          <div>Postati A</div>
+                          <div>Renta</div>
+                          <div>Ski Servis</div>
                           <div>Komercijalni prodavac</div>
                           <div>Gravel BIKE</div>
 
@@ -62,11 +62,11 @@ function Footer() {
 
                    <div className={footerStyles.secondDivItems}>
                          <div>Suport</div>
-                          <div>+49 89 628 24 660</div>
-                          <div>Šalter za informacije</div>
-                          <div>Kontkt</div>
-                          <div>Uslovi</div>
-                          <div>Impresum</div>
+                          <div>+381 60 373 33 64</div>
+                          <div>freedombike2020@gmail</div>
+                          <div>Ćirpanova 8</div>
+                          <div>Novi Sad</div>
+                          <div>Bike Shop</div>
                     </div> 
 
 

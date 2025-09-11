@@ -17,7 +17,7 @@
 .headline{
     min-width: 50%;
     padding: 2em;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     display: flex;
     align-items: center;
    justify-content: center;
@@ -28,7 +28,7 @@
 
 
 .secondDiv{
-    max-width: 60rem;
+    max-width: 70rem;
     padding: 1em;
 
 
@@ -37,20 +37,20 @@
   justify-content: space-between;
     margin-bottom: 1em;
     
-        /* border: 2px solid red; */
+     
         
 }
 
 
 .secondDivItem1{
 
-    min-width: 48%;
+    width: 32rem;
     padding: 1em;
      display: flex;
      flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  font-size: .9rem;
+    align-items:center;
+    justify-content: space-around;
+  font-size: 1.1rem;
 
 
 font-weight: 500;
@@ -73,8 +73,8 @@ font-weight: 500;
 
 
 .secondDivItem2 {
-   min-height: 22rem;
-    min-width: 48%;
+   height: 25rem;
+    width: 32rem;
 
     display: flex;
     align-items: center;
@@ -91,8 +91,9 @@ font-weight: 500;
 
 
 
+
 .threedDiv{
-   max-width: 70rem;
+   width: 85rem;
 
 
 
@@ -102,19 +103,18 @@ font-weight: 500;
 
     margin-bottom: 1em;
 
-    /* border: 2px solid red; */
 
 }
 
 
 .threedDivItems{
 
-    min-height: 25rem;
+   min-height: 35rem;
 
     border-radius: .6em;
 
     
-    width: 23%;
+    width: 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,8 +129,9 @@ font-weight: 500;
 }
 
 .threedDivItems div{
-    padding: .7em;
-    font-size: .8rem;
+    padding: 1em;
+    font-size: 1rem;
+  
 }
 
 .threedDivItems:hover{
@@ -156,7 +157,7 @@ font-weight: 500;
 
 
 .threedDivItems div:nth-child(1){
-      min-height: 12rem;
+      min-height: 14rem;
       width: 100%;
        background-image: url('../../img/b7.jpg');
         background-position: center;
@@ -182,12 +183,12 @@ font-weight: 500;
 
 .threedDivItems2 {
 
-    min-height: 25rem;
+min-height: 35rem;
 
     border-radius: .6em;
 
 
-    width: 23%;
+    width: 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -196,20 +197,21 @@ font-weight: 500;
 
     margin-bottom: 1em;
 
+  
     /* border: 1px solid green; */
 
 
 }
 
 .threedDivItems2 div {
-    padding: .7em;
-    font-size: .8rem;
+    padding: 1em;
+    font-size:1rem;
 }
 
 
 
 .threedDivItems2 div:nth-child(1) {
-    min-height: 12rem;
+    min-height: 14rem;
     width: 100%;
     background-image: url('../../img/group.jpg');
     background-position: center;
@@ -237,34 +239,34 @@ font-weight: 500;
 
 .threedDivItems3 {
 
-    min-height: 25rem;
+    min-height: 35rem;
+    
+        border-radius: .6em;
+    
+    
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+    
+        margin-bottom: 1em;
+    
 
-    border-radius: .6em;
-
-
-    width: 23%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 1px 1px 10px 1px var(--grey);
-
-    margin-bottom: 1em;
-
-    /* border: 1px solid green; */
 
 
 }
 
 .threedDivItems3 div {
-    padding: .7em;
-    font-size: .8rem;
+    padding: 1em;
+    font-size: 1rem;
 }
 
 
 
 .threedDivItems3 div:nth-child(1) {
-    min-height: 12rem;
+    min-height: 14rem;
     width: 100%;
     background-image: url('../../img/girl.jpg');
     background-position: center;
@@ -292,12 +294,11 @@ font-weight: 500;
 
 .threedDivItems4 {
 
-    min-height: 25rem;
-
+min-height: 35rem;
     border-radius: .6em;
 
 
-    width: 23%;
+    width: 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -306,20 +307,20 @@ font-weight: 500;
 
     margin-bottom: 1em;
 
-    /* border: 1px solid green; */
+
 
 
 }
 
 .threedDivItems4 div {
-    padding: .7em;
-    font-size: .8rem;
+    padding: 1em;
+    font-size: 1rem;
 }
 
 
 
 .threedDivItems4 div:nth-child(1) {
-    min-height: 12rem;
+    min-height: 14rem;
     width: 100%;
     background-image: url('../../img/b9.jpg');
     background-position: center;
@@ -334,11 +335,9 @@ font-weight: 500;
 
 }
 
-
-
-@media (max-width:70rem){
+@media (max-width:85rem) {
 .threedDiv {
-        max-width: 60rem;
+        width: 70rem;
 
 
 
@@ -348,9 +347,529 @@ font-weight: 500;
 
         margin-bottom: 1em;
 
-  
 
     }
+
+
+    .threedDivItems {
+
+        min-height: 35rem;
+
+        border-radius: .6em;
+
+
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+        /* border: 1px solid green; */
+
+
+    }
+
+    .threedDivItems div {
+        padding: .7em;
+        font-size: 1rem;
+
+    }
+
+    .threedDivItems:hover {
+        transition: 500ms;
+        transform: scale(.98);
+    }
+
+    .threedDivItems2:hover {
+        transition: 500ms;
+        transform: scale(.98);
+    }
+
+    .threedDivItems3:hover {
+        transition: 500ms;
+        transform: scale(.98);
+    }
+
+    .threedDivItems4:hover {
+        transition: 500ms;
+        transform: scale(.98);
+    }
+
+
+
+    .threedDivItems div:nth-child(1) {
+        min-height: 14rem;
+        width: 100%;
+        background-image: url('../../img/b7.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        border-top-right-radius: .6em;
+        border-top-left-radius: .6em;
+        border: none;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+    .threedDivItems2 {
+
+        min-height: 35rem;
+
+        border-radius: .6em;
+
+
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+
+        /* border: 1px solid green; */
+
+
+    }
+
+    .threedDivItems2 div {
+        padding: .7em;
+        font-size: 1rem;
+    }
+
+
+
+    .threedDivItems2 div:nth-child(1) {
+        min-height: 14rem;
+        width: 100%;
+        background-image: url('../../img/group.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        border-top-right-radius: .6em;
+        border-top-left-radius: .6em;
+        border: none;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .threedDivItems3 {
+
+        min-height: 35rem;
+
+        border-radius: .6em;
+
+
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+
+
+
+    }
+
+    .threedDivItems3 div {
+        padding: .7em;
+        font-size: 1rem;
+    }
+
+
+
+    .threedDivItems3 div:nth-child(1) {
+        min-height: 14rem;
+        width: 100%;
+        background-image: url('../../img/girl.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        border-top-right-radius: .6em;
+        border-top-left-radius: .6em;
+        border: none;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .threedDivItems4 {
+
+        min-height: 35rem;
+        border-radius: .6em;
+
+
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        margin-bottom: 1em;
+
+
+
+
+    }
+
+    .threedDivItems4 div {
+        padding: .7em;
+        font-size: 1rem;
+    }
+
+
+
+    .threedDivItems4 div:nth-child(1) {
+        min-height: 14rem;
+        width: 100%;
+        background-image: url('../../img/b9.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        border-top-right-radius: .6em;
+        border-top-left-radius: .6em;
+        border: none;
+
+
+
+    }
+    
+
+
+}
+
+
+
+
+@media (max-width:70rem){
+
+.secondDiv {
+        max-width: 60rem;
+        padding: 1em;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1em;
+
+
+
+    }
+
+
+.secondDivItem1 {
+
+    width: 28rem;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.1rem;
+
+
+    font-weight: 500;
+
+
+}
+
+
+
+
+
+
+
+
+.secondDivItem2 {
+    height: 25rem;
+    width: 28rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('../../img/b8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+
+}
+
+
+
+.threedDiv {
+        width: 50rem;
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+
+
+    }
+
+
+
+          .threedDivItems {
+    
+              min-height: 35rem;
+    
+              border-radius: .6em;
+    
+    
+              width: 20rem;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+              box-shadow: 1px 1px 10px 1px var(--grey);
+    
+              margin-bottom: 1em;
+    
+              /* border: 1px solid green; */
+    
+    
+          }
+    
+          .threedDivItems div {
+              padding: .7em;
+              font-size: 1rem;
+    
+          }
+    
+
+    
+    
+          .threedDivItems div:nth-child(1) {
+              min-height: 14rem;
+              width: 100%;
+              background-image: url('../../img/b7.jpg');
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+    
+              border-top-right-radius: .6em;
+              border-top-left-radius: .6em;
+              border: none;
+    
+    
+    
+          }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          .threedDivItems2 {
+    
+              min-height: 35rem;
+    
+              border-radius: .6em;
+    
+    
+            width: 20rem;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+              box-shadow: 1px 1px 10px 1px var(--grey);
+    
+              margin-bottom: 1em;
+    
+    
+              /* border: 1px solid green; */
+    
+    
+          }
+    
+          .threedDivItems2 div {
+              padding: .7em;
+              font-size: 1rem;
+          }
+    
+    
+    
+          .threedDivItems2 div:nth-child(1) {
+              min-height: 14rem;
+              width: 100%;
+              background-image: url('../../img/group.jpg');
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+    
+              border-top-right-radius: .6em;
+              border-top-left-radius: .6em;
+              border: none;
+    
+    
+    
+          }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          .threedDivItems3 {
+    
+              min-height: 35rem;
+    
+              border-radius: .6em;
+    
+    
+        width: 20rem;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+              box-shadow: 1px 1px 10px 1px var(--grey);
+    
+              margin-bottom: 1em;
+    
+    
+    
+    
+          }
+    
+          .threedDivItems3 div {
+              padding: .7em;
+              font-size: 1rem;
+          }
+    
+    
+    
+          .threedDivItems3 div:nth-child(1) {
+              min-height: 14rem;
+              width: 100%;
+              background-image: url('../../img/girl.jpg');
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+    
+              border-top-right-radius: .6em;
+              border-top-left-radius: .6em;
+              border: none;
+    
+    
+    
+          }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          .threedDivItems4 {
+    
+              min-height: 35rem;
+              border-radius: .6em;
+    
+    
+        width: 20rem;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+              box-shadow: 1px 1px 10px 1px var(--grey);
+    
+              margin-bottom: 1em;
+    
+    
+    
+    
+          }
+    
+          .threedDivItems4 div {
+              padding: .7em;
+              font-size: 1rem;
+          }
+    
+    
+    
+          .threedDivItems4 div:nth-child(1) {
+              min-height: 14rem;
+              width: 100%;
+              background-image: url('../../img/b9.jpg');
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+    
+              border-top-right-radius: .6em;
+              border-top-left-radius: .6em;
+              border: none;
+    
+    
+    
+          }
 
 
   
@@ -440,107 +959,7 @@ font-weight: 500;
 
 
 
-    .threedDiv {
-        max-width: 40rem;
-
-
-
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-
-        margin-bottom: 1em;
-
-
-
-    }
-
-
-    .threedDivItems {
-
-        min-height: 25rem;
-
-        border-radius: .6em;
-
-
-        width: 44%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        box-shadow: 1px 1px 10px 1px var(--grey);
-
-        margin-bottom: 1em;
-
-        /* border: 1px solid green; */
-
-
-    }
-
-        .threedDivItems2 {
-    
-            min-height: 25rem;
-    
-            border-radius: .6em;
-    
-    
-            width: 44%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-            box-shadow: 1px 1px 10px 1px var(--grey);
-    
-            margin-bottom: 1em;
-    
-            /* border: 1px solid green; */
-    
-    
-        }
-
-         .threedDivItems3 {
-    
-             min-height: 25rem;
-    
-             border-radius: .6em;
-    
-    
-             width: 44%;
-             display: flex;
-             flex-direction: column;
-             align-items: center;
-             justify-content: space-between;
-             box-shadow: 1px 1px 10px 1px var(--grey);
-    
-             margin-bottom: 1em;
-    
-             /* border: 1px solid green; */
-    
-    
-         }
-
-  .threedDivItems4 {
-
-      min-height: 25rem;
-
-      border-radius: .6em;
-
-
-      width: 44%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-      box-shadow: 1px 1px 10px 1px var(--grey);
-
-      margin-bottom: 1em;
-
-      /* border: 1px solid green; */
-
-
-  }
-
+  
 }
 
 
@@ -652,12 +1071,12 @@ font-weight: 500;
 
     .threedDivItems {
 
-        min-height: 25rem;
+        min-height: 31rem;
 
         border-radius: .6em;
 
 
-       min-width: 18rem;
+       min-width: 19rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -673,20 +1092,20 @@ font-weight: 500;
 
     .threedDivItems2 {
 
-        min-height: 25rem;
-
+    min-height: 31rem;
+    
         border-radius: .6em;
-
-
-    min-width: 18rem;
+    
+    
+        min-width: 19rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
         box-shadow: 1px 1px 10px 1px var(--grey);
-
+    
         margin-bottom: 1em;
-
+    
         /* border: 1px solid green; */
 
 
@@ -694,42 +1113,41 @@ font-weight: 500;
 
     .threedDivItems3 {
 
-        min-height: 25rem;
-
+    min-height: 31rem;
+    
         border-radius: .6em;
-
-
-    min-width: 18rem;
+    
+    
+        min-width: 19rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
         box-shadow: 1px 1px 10px 1px var(--grey);
-
+    
         margin-bottom: 1em;
 
-        /* border: 1px solid green; */
 
 
     }
 
     .threedDivItems4 {
 
-        min-height: 25rem;
+min-height: 31rem;
 
-        border-radius: .6em;
+    border-radius: .6em;
 
 
-    min-width: 18rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        box-shadow: 1px 1px 10px 1px var(--grey);
+    min-width: 19rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px 1px var(--grey);
 
-        margin-bottom: 1em;
+    margin-bottom: 1em;
 
-        /* border: 1px solid green; */
+    /* border: 1px solid green; */
 
 
     }

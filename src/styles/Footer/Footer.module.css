@@ -44,7 +44,7 @@
 
     border-top: .2em solid var(--grey);
 
-    /* border: 2px solid red; */
+background-color: red;
 
 }
 
@@ -58,6 +58,12 @@
 
 .secondDivItems div{
     padding: 1em;
+}
+.secondDiv div :hover{
+    transition: .5s;
+    transform: scale(1.02);
+    background-color: var(--dark);
+    color: var(--light);
 }
 
 
