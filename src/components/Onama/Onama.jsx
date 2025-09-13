@@ -24,7 +24,7 @@ function Onama() {
 
           <div className={onamaStyles.prazanDiv}></div>
 
-        <div className={onamaStyles.headline}>Više O nama</div>
+        <div className={onamaStyles.headline}>Više o nama</div>
 
         <div className={onamaStyles.secondDiv}>
           <div className={onamaStyles.secondDivItem1}>

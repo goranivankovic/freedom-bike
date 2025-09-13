@@ -73,7 +73,20 @@
 }
 
 
+@media (max-width:80rem) {
+.headline {
+        font-size: 1.3rem;
+        width: 60%;
+        padding: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+/* background-color: red; */
 
+
+    }
+    
+}
 
 
 

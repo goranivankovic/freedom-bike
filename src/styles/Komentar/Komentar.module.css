@@ -75,7 +75,52 @@ animation: slider 20s ease infinite;
     }
 
 } 
+@media (max-width:80rem) {
+.coomentDiv {
 
+        max-width: 70rem;
+        padding: 1em;
+
+
+
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        /* border: 2px solid red; */
+
+    }
+
+
+
+    .coomentDivItems {
+        color: var(--grey);
+        font-size: 1rem;
+        border-radius: .6em;
+        min-height: 11rem;
+        min-width: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        margin-left: 2em;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+        animation: slider 20s ease infinite;
+
+
+    }
+
+    .coomentDivItems div {
+        padding: .6em;
+    }
+
+    .iconsColor {
+        color: var(--orange);
+    }
+
+}
 
 
 @media (max-width:70rem){

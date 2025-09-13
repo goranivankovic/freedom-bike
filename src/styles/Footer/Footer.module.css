@@ -68,7 +68,49 @@
 
 
 
+@media(max-width:80rem) {
+.firstDiv {
+        padding: 1em;
+        min-width: 75rem;
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: space-between;
 
+        /* border: 2px solid red; */
+
+    }
+
+    .firstDiv a {
+        padding: .6em;
+        text-decoration: none;
+
+
+    }
+
+
+
+    .secondDiv {
+        padding: 1em;
+        min-width: 75rem;
+        font-size: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: space-between;
+
+        border-top: .2em solid var(--grey);
+
+
+
+    }
+
+
+
+
+
+
+
+}
 
 
 
